@@ -1,0 +1,67 @@
+/*Copyright 2017 Keytek */
+/*
+/* Main styling // ----------------------------------*/
+.main-header .main .title{
+font-size: 5em;
+    font-weight: 600;
+}
+.main-header .title{
+  font-size: 5em;
+  font-weight: 600;
+  color: #fff;
+}
+.main-header .subtitle{
+  font-size: 3em;
+  font-weight: 400;
+  color: #fff;
+}
+.is-outlined{
+  border-width:2px!important;
+}
+.is-center{
+  display:flex;justify-content:center;align-items:center;
+}
+.has-bg-img {
+  background: url('http://localhost/wordpress/wp-content/uploads/2017/09/gradient-header.jpg')center center;
+  background-size:cover;
+ }
+ .quote .subtitle{
+   margin-top: 1em !important;
+ }
+
+ .single .card{
+   box-shadow: none;
+ }
+ .post p{
+   font-family: Open Sans, sans-serif;
+   color: $dark-grey;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 21px;
+   line-height: 1.58;
+   letter-spacing: .01em;
+ }
+.post h1{
+   font-family: Open Sans, sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    margin-left: -2.5px;
+    line-height: 1.04;
+    letter-spacing: -.028em;
+    margin: 0 !important;
+ }
+.post h2{
+  color: #4b515b;
+  font-family: Open Sans, sans-serif;
+  font-size: 2rem;
+  margin-bottom: 10px!important;
+  margin-top: 10px!important;
+}
+.post a:link, .post a:visited{
+  border-bottom: 2px solid #3273dc;
+}
+.post a:link:hover, .post a:visited:hover{
+  border-bottom: 2px solid #000;
+}
