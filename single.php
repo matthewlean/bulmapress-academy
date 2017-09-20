@@ -10,23 +10,25 @@
 get_header(); ?>
 
 <section class="hero is-medium">
-  <div class="hero-body" style="background-image:url(<?php the_post_thumbnail_url(); ?>)">
+  <div class="hero-body" style="background-image:url(<?php the_post_thumbnail_url(); ?>); background-size: cover;
+    background-repeat: no-repeat;">
     <div class="container">
 			<div class="tile is-center card-content card has-text-centered">
 			<article class="tile is-child is-primary">
-				<p class="subtitle">
-					<?php if ( is_single() ) : ?>
+				<div class="post subtitle">
+					<h1><?php if ( is_single() ) : ?>
 						<?php bulmapress_the_title('is-2', false); ?>
 					<?php else : ?>
 						<?php bulmapress_the_title('is-3'); ?>
 					<?php endif; ?>
-
-					<?php if ( 'post' === get_post_type() ) : ?>
+					</h1>
+					<h2><?php if ( 'post' === get_post_type() ) : ?>
 						<div class="subtitle is-6">
 							<?php bulmapress_posted_on(); ?>
 						</div><!-- .entry-meta -->
-					<?php endif; ?>
-				</p>
+						<?php endif; ?>
+					</h2>
+				</div>
 			</article>
 		</div>
     </div>

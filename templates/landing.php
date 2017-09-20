@@ -21,10 +21,10 @@
     background-repeat: no-repeat;" />
 		  <div class="hero-body">
 		    <div class="container">
-		      <h1 class="title is-center">
+		      <h1 class="title">
 						Locksmith Training
 			     </h1>
-		      <h2 class="subtitle is-center">
+		      <h2 class="subtitle">
 			        securing your future
 			     </h2>
 		    </div>
