@@ -8,7 +8,7 @@
  */
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class('section'); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class('section card'); ?>>
 	<div class="container content">
 		<header class="entry-header">
 			<?php the_title( '<h1 class="title is-1 entry-title">', '</h1>' ); ?>
@@ -22,7 +22,7 @@
 				'after'  => '</div>',
 				) ); ?>
 
-			</div><!-- .entry-content -->
+		</div><!-- .entry-content -->
 
 			<?php if ( get_edit_post_link() ) : ?>
 				<footer class="entry-footer">

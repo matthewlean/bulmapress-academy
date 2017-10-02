@@ -33,35 +33,47 @@
 
 		<?php
 
-		// bulmapress_custom_query(array(
-		// 	'post_type' => 'post',
-		// 	'post_class'	=> 'courses',
-		// 	'section_title' => 'Courses',
-		// 	'section_columns' => 4,
-		// 	'section_max_posts' => 7,
-		// 	'section_button_text' => 'See all Posts'
-		// 	)
-		// );
 		bulmapress_custom_query(array(
 			'post_type' => 'page',
-			'post_class'	=> 'pages',
-			'section_title' => 'Recent Pages',
+			'post_class'	=> 'landing',
+			'section_title' => 'Courses',
 			'section_columns' => 4,
-			'section_max_posts' => 4
+			'section_max_posts' => 4,
+			'section_button_text' => 'See all Posts'
 			)
 		);
+		// bulmapress_custom_query(array(
+		// 	'post_type' => 'page',
+		// 	'post_class'	=> 'pages',
+		// 	'section_title' => 'Recent Pages',
+		// 	'section_columns' => 4,
+		// 	'section_max_posts' => 4
+		// 	)
+		// );
 		?>
 
-<section class="hero is-large has-bg-img quote">
+<section class="main-header hero home is-medium">
+	<div class="hero-body">
+		<?php
+		foreach((get_the_category()) as $childcat) {
+		if (cat_is_ancestor_of(courses, $childcat)) {
+		echo '<a href="'.get_category_link($childcat->cat_ID).'">';
+		 echo $childcat->cat_name . '</a>';
+		}}
+		?>
+	</div>
+</section>
+
+<section class="hero is-medium has-bg-img quote">
 	<div class="hero-body">
 		<div class="container has-text-centered">
-			<div class="tile is-center card-content card">
-				<article class="tile is-child notification is-primary">
-          <p class="title">"The assessment was well worked out, a great deal of hard work and thought has obviously gone into putting then Assessment together."</p>
-          <p class="subtitle">- Colin Preston</p>
-        </article>
+			<div class="tile is-center card-content ">
+			<article class="tile is-child notification is-primary">
+          	<p class="title">"The assessment was well worked out, a great deal of hard work and thought has obviously gone into putting the Assessment together."</p>
+          	<p class="subtitle">- Colin Preston</p>
+        	</article>
 			</div>
-	</div>
+		</div>
 	</div>
 </section>
 

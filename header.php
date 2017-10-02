@@ -28,8 +28,15 @@
 				<div class="container">
 					<nav id="site-navigation" class="nav main-navigation" role="navigation">
 						<div class="nav-left">
-							<?php bulmapress_home_link('nav-item is-brand'); ?>
-							<?php bulmapress_blog_description('nav-item is-muted'); ?>
+							<a href="<?php bulmapress_home_link ?>">
+							<figure class="image nav-logo">
+  								<img src="<?php $custom_logo_id = get_theme_mod( 'custom_logo' );
+								$image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+								echo $image[0]; ?>">
+							</figure>
+							</a>
+							<!-- <?php bulmapress_home_link('nav-item is-brand'); ?>
+							<?php bulmapress_blog_description('nav-item is-muted'); ?> -->
 						</div>
 						<?php bulmapress_menu_toggle(); ?>
 						<?php bulmapress_navigation(); ?>
