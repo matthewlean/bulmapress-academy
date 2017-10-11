@@ -45,7 +45,7 @@ function bulmapress_menu_toggle()
 	echo $output;
 }
 
-function bulmapress_copyright_link($author = 'Bulmapress', $url = 'http://bulmapress.com')
+function bulmapress_copyright_link($author = 'CAG (UK)', $url = 'https://www.keytek.co.uk/')
 {
 	$output = '
 		<p class="copyright-link">&copy; '. date('Y') . '

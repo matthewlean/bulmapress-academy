@@ -18,12 +18,12 @@
 <div id="primary" class="content-area landing">
 	<main id="main" class="site-main" role="main">
 		<section class="main-header hero home is-medium" style="background-image:url(<?php the_post_thumbnail_url(); ?>); background-size: cover;
-    background-repeat: no-repeat;" />
+    		background-repeat: no-repeat;" />
 		  <div class="hero-body">
 		    <div class="container">
 		      <h1 class="title is-center">
-						Keytek Academy Blog
-			     </h1>
+				Keytek Academy Blog
+			  </h1>
 		    </div>
 		  </div>
 		</section>
@@ -39,6 +39,7 @@
 			'section_button_text' => 'See all Posts'
 			)
 		);
+
 		?>
 
 	</main><!-- #main -->

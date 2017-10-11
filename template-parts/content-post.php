@@ -14,14 +14,14 @@
 
 			<!-- Wordpress title -->
 			<?php if ( is_single() ) : ?>
-				<?php bulmapress_the_title('is-2', false); ?>
+				<?php bulmapress_the_title('is-1', false); ?>
 			<?php else : ?>
-				<?php bulmapress_the_title('is-3'); ?>
+				<?php bulmapress_the_title('is-2'); ?>
 			<?php endif; ?>
 
 			<!-- Wordpress post details -->
 			<?php if ( 'post' === get_post_type() ) : ?>
-				<div class="subtitle is-6">
+				<div class="subtitle is-5">
 					<?php bulmapress_posted_on(); ?>
 				</div><!-- .entry-meta -->
 

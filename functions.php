@@ -11,6 +11,7 @@
 require get_template_directory() . '/functions/bulmapress_navwalker.php';
 require get_template_directory() . '/functions/bulmapress_helpers.php';
 require get_template_directory() . '/functions/bulmapress_custom_query.php';
+require get_template_directory() . '/functions/bulmapress_custom_query_courses.php';
 
 if ( ! function_exists( 'bulmapress_setup' ) ) :
 /**
@@ -73,3 +74,10 @@ add_action( 'wp_head', 'add_stylesheet_to_head' );
 
 // Add custom logo
 add_theme_support( 'custom-logo' );
+
+// Featured content
+add_theme_support( 'mytheme_has_featured_posts', array(
+    'filter'     => 'featured',
+    'max_posts'  => 2,
+    'post_types' => array( 'page' ),
+) );

@@ -29,6 +29,13 @@
 			     </h2>
 		    </div>
 		  </div>
+		  <div class="hero-foot">
+    <div class="container">
+    	<nav class="tabs is-boxed" role="navigation">
+     		<?php bulmapress_sub_navigation(); ?>
+    	</nav>
+    </div>
+    </div>
 		</section>
 
 		<?php
@@ -51,18 +58,6 @@
 		// 	)
 		// );
 		?>
-
-<section class="main-header hero home is-medium">
-	<div class="hero-body">
-		<?php
-		foreach((get_the_category()) as $childcat) {
-		if (cat_is_ancestor_of(courses, $childcat)) {
-		echo '<a href="'.get_category_link($childcat->cat_ID).'">';
-		 echo $childcat->cat_name . '</a>';
-		}}
-		?>
-	</div>
-</section>
 
 <section class="hero is-medium has-bg-img quote">
 	<div class="hero-body">
@@ -99,7 +94,142 @@
     </div>
   </div>
 </section>
-	</main><!-- #main -->
+
+<section class=line-break>
+</section>
+
+<section class="hero is-medium">
+		<div class="container">
+      		<h1 class="title has-text-centered pad-top-40 green-bold">
+        		How we compare to other courses?
+      		</h1>
+      	<div>
+	<div class="comparison">
+	  <table>
+	    <thead>
+	      <tr>
+	        <th class="tl tl2"></th>
+	        <th class="product" style="background:#77ad1a; border-top-left-radius: 5px; border-left:0px;">
+	        	<img src="../wp-content/uploads/2017/10/keytek-academy-logo-white.png" style=" width:50px; height:20px;"> </img></th>
+	        <th class="product" style="background:#77ad1a;">Product_2</th>
+	      </tr>
+	      <tr>
+	        <!-- <th></th>
+	        <th class="price-info">
+	          <div class="price-now"><span>$ Price</span>
+	            <p>  / year</p>
+	          </div>
+	        </th>
+	        <th class="price-info">
+	          <div class="price-now"><span>$ Price</span>
+	            <p>  / year</p>
+	          </div>
+	        </th> -->
+	      </tr>
+	    </thead>
+	    <tbody>
+	      <tr>
+	        <td></td>
+	        <td colspan="3">item_1</td>
+	      </tr>
+	      <tr class="compare-row">
+	        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+	        <td><i class="fa fa-check"></i>
+	        </td>
+	        <td><span>–</span></td>
+
+	      </tr>
+	      <tr>
+	        <td> </td>
+	        <td colspan="3">item_2</td>
+	      </tr>
+	      <tr>
+	        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+	        <td><i class="fa fa-check"></i>
+	        </td>
+	        <td><span>–</span></td>
+	      </tr>
+	      </tr>
+	      <tr>
+	        <td> </td>
+	        <td colspan="4">item_4</td>
+	      </tr>
+	      <tr>
+	        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+	        <td><i class="fa fa-check"></i>
+	        </td>
+	        <td><span>–</span></td>
+	      </tr>
+	      <tr>
+	        <td> </td>
+	        <td colspan="3">item_5</td>
+	      </tr>
+	      <tr class="compare-row">
+	        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+	        <td><span>–</span></td>
+	       	<td><i class="fa fa-check"></i>
+	      </tr>
+	      <tr>
+	        <td> </td>
+	        <td colspan="4">item_6</td>
+	      </tr>
+	      <tr>
+	        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+	        <td><span>–</span></td>
+	        <td><i class="fa fa-check"></i>
+	      </tr>
+	      <tr>
+	        <td> </td>
+	        <td colspan="3">item_7</td>
+	      </tr>
+	      <tr class="compare-row">
+	        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+	        <td><span>–</span></td>
+	       	<td><i class="fa fa-check"></i>
+	      </tr>
+	      <tr>
+	        <td> </td>
+	        <td colspan="3">item_8</td>
+	      </tr>
+	      <tr>
+	        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+	        <td><span>–</span></td>
+	        <td><i class="fa fa-check"></i>
+	        </td>
+	      </tr>
+	      <tr>
+	        <td> </td>
+	        <td colspan="3">item_9</td>
+	      </tr>
+	      <tr class="compare-row">
+	        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+	        <td><span>–</span></td>
+	        <td><i class="fa fa-check"></i>
+	        </td>
+	      </tr>
+	      <tr>
+	        <td> </td>
+	        <td colspan="3">item_10</td>
+	      </tr>
+	      <tr>
+	        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+	       	<td><span>–</span></td>
+	        <td><i class="fa fa-check"></i>
+	      </tr>
+	      <tr>
+	        <td> </td>
+	      </tr>
+	      <tr>
+	        <td></td>
+	        <td><a href="https://idc.wis.com.tw/contactUs?service=o365-email-security-solution" class="price-buy">button<span class="hide-mobile"></span></a></td>
+	        <td><a href="https://idc.wis.com.tw/contactUs?service=o365-email-security-solution" class="price-buy">button<span class="hide-mobile"></span></a></td>
+	      </tr>
+	    </tbody>
+	  </table>
+	</div>
+</section>
+
+</main><!-- #main -->
 </div><!-- #primary -->
 
 <?php get_sidebar(); ?>

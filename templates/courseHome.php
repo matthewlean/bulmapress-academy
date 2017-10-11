@@ -18,27 +18,27 @@
 <div id="primary" class="content-area landing">
 	<main id="main" class="site-main" role="main">
 		<section class="main-header hero home is-medium" style="background-image:url(<?php the_post_thumbnail_url(); ?>); background-size: cover;
-    background-repeat: no-repeat;" />
+    		background-repeat: no-repeat;" />
 		  <div class="hero-body">
 		    <div class="container">
 		      <h1 class="title is-center">
-						Keytek Academy Courses
-			     </h1>
+				Keytek Academy Courses
+			  </h1>
 		    </div>
 		  </div>
 		</section>
 
 		<?php
 
-		bulmapress_custom_query(array(
+		bulmapress_custom_query_courses(array(
 			'post_type' => 'post',
-			'post_class'	=> 'courses',
-			'section_title' => 'Recent Posts',
+			'post_class'	=> 'pages',
+			'section_title' => 'Recent Pages',
 			'section_columns' => 4,
-			'section_max_posts' => 10,
-			'section_button_text' => 'See all Posts'
+			'section_max_posts' => 4
 			)
 		);
+
 		?>
 
 	</main><!-- #main -->
