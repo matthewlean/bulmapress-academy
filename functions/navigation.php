@@ -32,7 +32,7 @@ function bulmapress_sub_navigation()
 		'theme_location'    => 'menu-2',
 		'depth'             => 2,
 		'container'         => 'div id="navigation"',
-		'menu_class'        => 'sub-navigation',
+		'menu_class'        => 'navbar-tabs',
 		'fallback_cb'       => 'bulmapress_navwalker::fallback',
 		'walker'            => new bulmapress_navwalker()
 		)

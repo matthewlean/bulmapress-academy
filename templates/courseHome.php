@@ -32,10 +32,11 @@
 
 		bulmapress_custom_query_courses(array(
 			'post_type' => 'post',
-			'post_class'	=> 'pages',
-			'section_title' => 'Recent Pages',
-			'section_columns' => 4,
-			'section_max_posts' => 4
+			'post_class'	=> 'courses',
+			'section_title' => 'Courses',
+			'section_columns' => 5,
+			'section_max_posts' => 4,
+			'section_button_text' => 'See all Posts'
 			)
 		);
 

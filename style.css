@@ -98,6 +98,21 @@
 .hero-foot{
   background-color: rgba(255, 255, 255, 0.23);
 }
+.hero-foot .tabs{
+  border: none;
+}
+.hero-foot .nav-item{
+  padding:0;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+.hero-foot .tabs.is-boxed a:hover{
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom-color:  rgba(0, 0, 0, 0);
+}
+.hero-foot .tabs.is-boxed a{
+  padding: 10px 22px;
+}
 
 /*Landing*/
 .landing .card .card-content {
