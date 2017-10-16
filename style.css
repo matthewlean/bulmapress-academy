@@ -33,6 +33,13 @@
    box-shadow: none;
  }
  /*Blog Post Styling*/
+ .the-post{
+  width: 100%;
+  height: 100%;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+ }
  .post p{
    font-family: Open Sans, sans-serif;
    color: $dark-grey;
@@ -116,7 +123,7 @@
 
 /*Landing*/
 .landing .card .card-content {
-  min-height: 0px; 
+  min-height: 0px;
 }
 
 .line-break{
@@ -133,7 +140,12 @@
   font-weight: 400;
   color: #77ad1a;
 }
-
+.is-center{
+  display:flex;justify-content:center;align-items:center;
+}
+.is-green{
+  color: #77ad1a;
+}
 /*Table*/
 .comparison {
   max-width: 960px;
@@ -151,7 +163,33 @@
   border-spacing: 0;
   table-layout: auto;
 }
+.comparison .table td, .comparison .table tr, .comparison .table th{
+  border: none;
+  padding: 15px 30px;
+  vertical-align: baseline;
+}
+.comparison img{
+  max-width: 200px !important;
+}
+.comparison .green-border-mid{
+  border-left: 5px solid #23d160;
+  border-right: 5px solid #23d160;
+}
+.comparison .green-border-top{
+  border-top: 5px solid #23d160;
+  border-left: 5px solid #23d160;
+  border-right: 5px solid #23d160;
+}
+.comparison .green-border-bottom{
+  border-bottom: 5px solid #23d160;
+  border-left: 5px solid #23d160;
+  border-right: 5px solid #23d160;
+}
+.comparison #no-hover:hover{
+  background-color: rgba(255, 255, 255, 0);;
+}
 
+/*
 .comparison td,
 .comparison th {
   border-right: 1px solid #E8E8E8;
@@ -245,7 +283,7 @@
 
 .comparison .price-buy:hover {
   background: #E84D00;
-}
+}*/
 
 @media screen and (min-width: 721px) and (max-width: 1000px) {
   .table_ul li {
@@ -271,9 +309,12 @@
   .comparison {
     max-width: 100%;
   }
-  .comparison td:first-child,
-  .comparison th:first-child {
+  .comparison td:last-child,
+  .comparison th:last-child {
     display: none;
+  }
+  .comparison .table td{
+    padding: 10px!important;
   }
   .comparison tbody tr:nth-child(odd) {
     display: table-row;

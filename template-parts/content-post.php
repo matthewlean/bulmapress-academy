@@ -8,7 +8,7 @@
  */
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class('card'); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class('the-post'); ?>>
 
 		<div class="content entry-content content-post">
 

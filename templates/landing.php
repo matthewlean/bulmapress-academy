@@ -50,7 +50,7 @@
 			'section_button_text' => 'See all Posts'
 			)
 		);
-		
+
 		// bulmapress_custom_query(array(
 		// 	'post_type' => 'page',
 		// 	'post_class'	=> 'pages',
@@ -106,130 +106,59 @@
         		How we compare to other courses?
       		</h1>
       	<div>
-	<div class="comparison">
-	  <table>
-	    <thead>
-	      <tr>
-	        <th class="tl tl2"></th>
-	        <th class="product" style="background:#77ad1a; border-top-left-radius: 5px; border-left:0px;">
-	        	<img src="../wp-content/uploads/2017/10/keytek-academy-logo-white.png" style=" width:50px; height:20px;"> </img></th>
-	        <th class="product" style="background:#77ad1a;">Product_2</th>
-	      </tr>
-	      <tr>
-	        <!-- <th></th>
-	        <th class="price-info">
-	          <div class="price-now"><span>$ Price</span>
-	            <p>  / year</p>
-	          </div>
-	        </th>
-	        <th class="price-info">
-	          <div class="price-now"><span>$ Price</span>
-	            <p>  / year</p>
-	          </div>
-	        </th> -->
-	      </tr>
-	    </thead>
-	    <tbody>
-	      <tr>
-	        <td></td>
-	        <td colspan="3">item_1</td>
-	      </tr>
-	      <tr class="compare-row">
-	        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-	        <td><i class="fa fa-check"></i>
-	        </td>
-	        <td><span>–</span></td>
+		<div class="comparison">
+			<table class="table is-bordered">
+				<thead>
+					<tr id="no-hover">
+						<th class="is-no-border"></th>
+						<th><img src="<?php $custom_logo_id = get_theme_mod('custom_logo');
+                    $image = wp_get_attachment_image_src($custom_logo_id, 'full');
+                    echo $image[0]; ?>"></th>
+						<th>Other Locksmiths</th>
+					</tr>
+				</thead>
 
-	      </tr>
-	      <tr>
-	        <td> </td>
-	        <td colspan="3">item_2</td>
-	      </tr>
-	      <tr>
-	        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-	        <td><i class="fa fa-check"></i>
-	        </td>
-	        <td><span>–</span></td>
-	      </tr>
-	      </tr>
-	      <tr>
-	        <td> </td>
-	        <td colspan="4">item_4</td>
-	      </tr>
-	      <tr>
-	        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-	        <td><i class="fa fa-check"></i>
-	        </td>
-	        <td><span>–</span></td>
-	      </tr>
-	      <tr>
-	        <td> </td>
-	        <td colspan="3">item_5</td>
-	      </tr>
-	      <tr class="compare-row">
-	        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-	        <td><span>–</span></td>
-	       	<td><i class="fa fa-check"></i>
-	      </tr>
-	      <tr>
-	        <td> </td>
-	        <td colspan="4">item_6</td>
-	      </tr>
-	      <tr>
-	        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-	        <td><span>–</span></td>
-	        <td><i class="fa fa-check"></i>
-	      </tr>
-	      <tr>
-	        <td> </td>
-	        <td colspan="3">item_7</td>
-	      </tr>
-	      <tr class="compare-row">
-	        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-	        <td><span>–</span></td>
-	       	<td><i class="fa fa-check"></i>
-	      </tr>
-	      <tr>
-	        <td> </td>
-	        <td colspan="3">item_8</td>
-	      </tr>
-	      <tr>
-	        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-	        <td><span>–</span></td>
-	        <td><i class="fa fa-check"></i>
-	        </td>
-	      </tr>
-	      <tr>
-	        <td> </td>
-	        <td colspan="3">item_9</td>
-	      </tr>
-	      <tr class="compare-row">
-	        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-	        <td><span>–</span></td>
-	        <td><i class="fa fa-check"></i>
-	        </td>
-	      </tr>
-	      <tr>
-	        <td> </td>
-	        <td colspan="3">item_10</td>
-	      </tr>
-	      <tr>
-	        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-	       	<td><span>–</span></td>
-	        <td><i class="fa fa-check"></i>
-	      </tr>
-	      <tr>
-	        <td> </td>
-	      </tr>
-	      <tr>
-	        <td></td>
-	        <td><a href="https://idc.wis.com.tw/contactUs?service=o365-email-security-solution" class="price-buy">button<span class="hide-mobile"></span></a></td>
-	        <td><a href="https://idc.wis.com.tw/contactUs?service=o365-email-security-solution" class="price-buy">button<span class="hide-mobile"></span></a></td>
-	      </tr>
-	    </tbody>
-	  </table>
-	</div>
-</section>
+				<tbody>
+
+					<tr><td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+					<td class="is-narrow">
+						<i class="fa fa-check is-green is-center"></i>
+					</td>
+					<td class="is-narrow"><p>-</p></td></tr>
+
+					<tr><td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+					<td class="is-narrow">
+						<i class="fa fa-check is-green is-center"></i>
+					</td>
+					<td class="is-narrow"><p>-</p></td></tr>
+
+					<tr><td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+					<td class="is-narrow">
+						<i class="fa fa-check is-green is-center"></i>
+					</td>
+					<td class="is-narrow"><p>-</p></td></tr>
+
+					<tr><td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+					<td class="is-narrow">
+						<i class="fa fa-check is-green is-center"></i>
+					</td>
+					<td class="is-narrow"><p>-</p></td></tr>
+
+
+					<tr>
+						<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+						<td class="is-narrow">
+							<i class="fa fa-check is-green is-center"></i>
+						</td>
+						<td class="is-narrow">
+							<p>-</p>
+						</td>
+					</tr>
+
+				</tbody>
+			</table>
+		</div>
+	</section>
 
 </main><!-- #main -->
 </div><!-- #primary -->
