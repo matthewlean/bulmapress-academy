@@ -111,35 +111,57 @@
 				<thead>
 					<tr id="no-hover">
 						<th class="is-no-border"></th>
-						<th><img src="<?php $custom_logo_id = get_theme_mod('custom_logo');
-                    $image = wp_get_attachment_image_src($custom_logo_id, 'full');
-                    echo $image[0]; ?>"></th>
-						<th>Other Locksmiths</th>
+						<th style="background-color:#77ad1a; border-top: 3px solid #77ad1a;border-left: 3px solid #77ad1a;border-right: 3px solid #77ad1a;"><img src="http://localhost/wordpress/wp-content/uploads/2017/10/keytek-academy-logo-white.png"></th>
+						<th style="padding: 15px 50px; font-size: 18px;">Other Locksmith Courses</th>
 					</tr>
 				</thead>
 
 				<tbody>
 
 					<tr><td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-					<td class="is-narrow">
+					<td class="is-narrow" style="border-left: 3px solid #77ad1a; border-right: 3px solid #77ad1a;">
 						<i class="fa fa-check is-green is-center"></i>
 					</td>
 					<td class="is-narrow"><p>-</p></td></tr>
 
 					<tr><td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-					<td class="is-narrow">
+						<td class="is-narrow" style="border-left: 3px solid #77ad1a; border-right: 3px solid #77ad1a;">
 						<i class="fa fa-check is-green is-center"></i>
 					</td>
 					<td class="is-narrow"><p>-</p></td></tr>
 
 					<tr><td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-					<td class="is-narrow">
+						<td class="is-narrow" style="border-left: 3px solid #77ad1a; border-right: 3px solid #77ad1a;">
 						<i class="fa fa-check is-green is-center"></i>
 					</td>
 					<td class="is-narrow"><p>-</p></td></tr>
 
 					<tr><td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-					<td class="is-narrow">
+						<td class="is-narrow" style="border-left: 3px solid #77ad1a; border-right: 3px solid #77ad1a;">
+						<i class="fa fa-check is-green is-center"></i>
+					</td>
+					<td class="is-narrow"><p>-</p></td></tr>
+
+					<tr><td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+						<td class="is-narrow" style="border-left: 3px solid #77ad1a; border-right: 3px solid #77ad1a;">
+						<i class="fa fa-check is-green is-center"></i>
+					</td>
+					<td class="is-narrow"><p>-</p></td></tr>
+
+					<tr><td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+						<td class="is-narrow" style="border-left: 3px solid #77ad1a; border-right: 3px solid #77ad1a;">
+						<i class="fa fa-check is-green is-center"></i>
+					</td>
+					<td class="is-narrow"><p>-</p></td></tr>
+
+					<tr><td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+						<td class="is-narrow" style="border-left: 3px solid #77ad1a; border-right: 3px solid #77ad1a;">
+						<i class="fa fa-check is-green is-center"></i>
+					</td>
+					<td class="is-narrow"><p>-</p></td></tr>
+
+					<tr><td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+						<td class="is-narrow" style="border-left: 3px solid #77ad1a; border-right: 3px solid #77ad1a;">
 						<i class="fa fa-check is-green is-center"></i>
 					</td>
 					<td class="is-narrow"><p>-</p></td></tr>
@@ -147,7 +169,7 @@
 
 					<tr>
 						<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-						<td class="is-narrow">
+						<td class="is-narrow" style="border-bottom: 3px solid #77ad1a;border-left: 3px solid #77ad1a;border-right: 3px solid #77ad1a;">
 							<i class="fa fa-check is-green is-center"></i>
 						</td>
 						<td class="is-narrow">

@@ -22,7 +22,7 @@
   display:flex;justify-content:center;align-items:center;
 }
 .has-bg-img {
-  background: url('http://localhost/wordpress/wp-content/uploads/2017/09/gradient-header.jpg')center center;
+  background: url('http://localhost/wordpress/wp-content/uploads/2017/10/header.jpg')center center;
   background-size:cover;
  }
  .quote .subtitle{
@@ -166,7 +166,8 @@
 .comparison .table td, .comparison .table tr, .comparison .table th{
   border: none;
   padding: 15px 30px;
-  vertical-align: baseline;
+  vertical-align: inherit;
+  border-bottom: #f2f2f2 solid 1px;
 }
 .comparison img{
   max-width: 200px !important;
