@@ -32,6 +32,10 @@
  .single .card{
    box-shadow: none;
  }
+ /*Helpers*/
+.m-t-10{margin-top: 10px}
+
+
  /*Blog Post Styling*/
  .the-post{
   width: 100%;
@@ -120,16 +124,44 @@
 .hero-foot .tabs.is-boxed a{
   padding: 10px 22px;
 }
-
+/*Helpers*/
+.has-text-weight-bold{
+  font-weight: 600!important;
+}
+.green-highlighted-text{
+  background-color: #6eb43f;
+  padding: 3px 7px;
+  width: fit-content;
+}
 /*Landing*/
 .landing .card .card-content {
   min-height: 0px;
 }
-
 .line-break{
-  width: 720px;
+  max-width: 720px;
   border-bottom: solid 1px #cecece;
   margin: 0 auto;
+}
+
+
+/*Gradient Colours*/
+.col-1-border-t{
+  border-top: 5px solid #6eb43f;
+}
+.col-2-border-t{
+  border-top: 5px solid #3bd086;
+}
+.col-3-border-t{
+  border-top: 5px solid #1da681;
+}
+.col-4-border-t{
+  border-top: 5px solid #1395a9;
+}
+.col-5-border-t{
+  border-top: 5px solid #1281ab;
+}
+.col-6-border-t{
+  border-top: 5px solid #2677b7;
 }
 
 /*Misc Edits*/
