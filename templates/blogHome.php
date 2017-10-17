@@ -27,6 +27,13 @@
 		    </div>
 		  </div>
 		</section>
+		<div class="hero-foot">
+    <div class="container">
+    	<nav class="tabs is-boxed" role="navigation">
+     		<?php bulmapress_sub_navigation(); ?>
+    	</nav>
+    </div>
+    </div>
 
 		<?php
 

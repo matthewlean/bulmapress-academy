@@ -27,9 +27,15 @@
 		    </div>
 		  </div>
 		</section>
+		<div class="hero-foot">
+    <div class="container">
+    	<nav class="tabs is-boxed" role="navigation">
+     		<?php bulmapress_sub_navigation(); ?>
+    	</nav>
+    </div>
+    </div>
 
 		<?php
-
 		bulmapress_custom_query_courses(array(
 			'post_type' => 'post',
 			'post_class'	=> 'courses',
@@ -39,7 +45,6 @@
 			'section_button_text' => 'See all Posts'
 			)
 		);
-
 		?>
 
 	</main><!-- #main -->
