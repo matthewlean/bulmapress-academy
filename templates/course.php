@@ -283,6 +283,30 @@
 </div>
 </section>
 
+<section class="hero is-medium is-dark is-bold">
+  <div class="hero-body">
+    <div class="container">
+			<div class="columns">
+			  <div class="column">
+			    First column
+			  </div>
+			  <div class="column">
+			    <h1 font-size="20px";>Mailing List <i class="fa fa-envelope-o" aria-hidden="true"></i></h1>
+					<p class="m-tb-20 is-white">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit
+						Vivamus efficitur felis erat, et efficitur nisl semper et.
+						Praesent nec mi.
+					</p>
+					<div class="control">
+					  <input class="input is-medium" type="text" placeholder="Email Address">
+					</div>
+					<p class="has-text-grey">Powered by Mailchimp</p>
+			  </div>
+			</div>
+    </div>
+  </div>
+</section>
+
 
 </main><!-- #main -->
 </div><!-- #primary -->

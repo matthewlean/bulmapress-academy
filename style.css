@@ -36,19 +36,39 @@ body , html{
  .single .card{
    box-shadow: none;
  }
- /*Helpers*/
+
+/* Misc Sizes // ----------------------------------*/
 .m-t-10{margin-top: 10px}
 .m-t-40{margin-top: 40px}
 .m-b-20{margin-bottom: 20px}
 .m-tb-20{margin: 20px 0}
 .m-b-40{margin-bottom: 40px}
 
-
 .is-narrow{max-width: 750px;}
-
 .size-200-200{width: 20%;height: initial;}
-
 .w-850-center{max-width: 850px;margin: 0 auto;}
+
+.pad-top-40{padding-top: 40px;}
+.pad-bot-20{padding-bottom: 20px;}
+.green-bold{font-weight: 400;color: #77ad1a;}
+.is-center{display:flex;justify-content:center;align-items:center;}
+.is-size-4{font-size: 1.5rem;}
+
+/* Colours // ----------------------------------*/
+.has-text-grey{color: hsl(0, 0%, 48%)!important;}
+/*Course Colours*/
+.col-1-border-t{border-top: 5px solid #6eb43f;}
+.col-2-border-t{border-top: 5px solid #3bd086;}
+.col-3-border-t{border-top: 5px solid #1da681;}
+.col-4-border-t{border-top: 5px solid #1395a9;}
+.col-5-border-t{border-top: 5px solid #1281ab;}
+.col-6-border-t{ border-top: 5px solid #2677b7;}
+
+/*Helpers*/
+.has-text-weight-bold{font-weight: 600!important;}
+.green-highlighted-text{background-color: #6eb43f;padding: 3px 7px;width: fit-content;}
+.has-text-white{color: #fff;
+}
 
  /*Blog Post Styling*/
  .the-post{
@@ -258,21 +278,6 @@ transition: ease 0.2;
 .hero-foot .tabs.is-boxed a{
   padding: 10px 22px;
 }
-/*Helpers*/
-.has-text-weight-bold{
-  font-weight: 600!important;
-}
-.green-highlighted-text{
-  background-color: #6eb43f;
-  padding: 3px 7px;
-  width: fit-content;
-}
-.has-text-white{
-  color: #fff;
-}
-.is-size-4{
-  font-size: 1.5rem;
-}
 /*Landing*/
 .landing .card .card-content {
   min-height: 0px;
@@ -303,40 +308,6 @@ transition: ease 0.2;
     color: #29cb71;
 }
 
-/*Gradient Colours*/
-.col-1-border-t{
-  border-top: 5px solid #6eb43f;
-}
-.col-2-border-t{
-  border-top: 5px solid #3bd086;
-}
-.col-3-border-t{
-  border-top: 5px solid #1da681;
-}
-.col-4-border-t{
-  border-top: 5px solid #1395a9;
-}
-.col-5-border-t{
-  border-top: 5px solid #1281ab;
-}
-.col-6-border-t{
-  border-top: 5px solid #2677b7;
-}
-
-/*Misc Edits*/
-.pad-top-40{
-  padding-top: 40px;
-}
-.pad-bot-20{
-  padding-bottom: 20px;
-}
-.green-bold{
-  font-weight: 400;
-  color: #77ad1a;
-}
-.is-center{
-  display:flex;justify-content:center;align-items:center;
-}
 .is-green-fill{
   color: #fff;
   background-color: #77ad1a;
