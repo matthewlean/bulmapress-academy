@@ -165,57 +165,18 @@
 			<!-- All Courses -->
 			<div class="tile is-parent is-3">
 				<article class="tile is-child notification box">
-					<p class="title has-text-weight-bold">All Courses</p>
-					<!-- <p class="subtitle">Subtitle</p> -->
-					<div class="content">
-						<a class="button is-green is-inverted is-outlined is-medium">View All</a>
+					<div class="All-courses" style="display:flex;justify-content: center;align-items: center;height: 100%;">
+						<!-- <p class="subtitle">Subtitle</p> -->
+						<div class="content has-text-centered">
+							<p class="title has-text-weight-bold">All Courses</p>
+							<a class="button is-green is-inverted is-outlined is-medium">View All</a>
+						</div>
 					</div>
 				</article>
 			</div>
 		</div>
 	</div>
 </div>
-</section>
-
-<section id="newsletter" class="hero is-primary">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Begin MailChimp Signup Form -->
-      <div id="mc_embed_signup" class="columns is-vcentered">
-        <div class="column is-one-third is-left">
-          <p class="title">Bulma <strong>Newsletter</strong></p>
-          <p class="subtitle">Get notified when v1 is ready!</p>
-        </div>
-
-        <div class="column">
-          <form action="https://bbxdesign.us3.list-manage.com/subscribe/post?u=b43b93fe633f0560b2a72a69c&amp;id=52585e8803" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate">
-            <div id="mc_embed_signup_scroll">
-              <div class="field is-grouped">
-                <div class="control has-icons-left is-expanded">
-                  <input type="email" value="" name="EMAIL" class="input is-flat required email" id="mce-EMAIL" placeholder="email address" required="" aria-required="true">
-                  <span class="icon is-small is-left">
-                    <i class="fa fa-envelope"></i>
-                  </span>
-                </div>
-                <div class="control">
-                  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button is-white is-outlined">
-                </div>
-              </div>
-              <div id="mce-responses">
-                <div class="notification is-danger response" id="mce-error-response" style="display:none"></div>
-                <div class="notification is-success response" id="mce-success-response" style="display:none"></div>
-              </div>
-              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-              <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                <input type="text" name="b_b43b93fe633f0560b2a72a69c_52585e8803" tabindex="-1" value="">
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-      <!--End mc_embed_signup-->
-    </div>
-  </div>
 </section>
 
 		<?php
@@ -241,7 +202,7 @@
 
 <section class="hero is-medium has-bg-img quote">
 	<div class="hero-body">
-		<div class="container has-text-centered">
+		<div class="container has-text-centered w-850-center">
 			<div class="tile is-center card-content ">
 			<article class="tile is-child notification is-primary">
           	<p class="title">"The assessment was well worked out, a great deal of hard work and thought has obviously gone into putting the Assessment together."</p>

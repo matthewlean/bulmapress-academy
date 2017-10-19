@@ -10,8 +10,7 @@
 
 <article class="course" id="post-<?php the_ID(); ?>" <?php post_class('section'); ?>>
 	<div class="container">
-		<header class="content">
-			<h1>TEST</h1>
+		<!-- <header class="content">
 			<?php if ( is_single() ) : ?>
 				<?php bulmapress_the_title('is-1', FALSE); ?>
 			<?php elseif ( 'page' === get_post_type() ) : ?>
@@ -24,7 +23,7 @@
 					<?php bulmapress_posted_on(); ?>
 				</div><!-- .entry-meta -->
 			<?php endif; ?>
-		</header><!-- .entry-header -->
+		</header><!-- .entry-header --> 
 
 		<div class="content entry-content">
 			<?php the_content( sprintf(
@@ -47,6 +46,10 @@
 				) );
 				?>
 			</div><!-- .entry-content -->
+		</div>
+	</article>
+
+
 
 			<footer class="content entry-footer">
 				<?php bulmapress_entry_footer(); ?>

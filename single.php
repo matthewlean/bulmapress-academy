@@ -8,7 +8,7 @@
  */
 
 get_header(); ?>
-	
+
 	<!-- Header image -->
 	<!-- If post has featured image post, if not don't" -->
 	<?php if ( has_post_thumbnail() ) : ?>

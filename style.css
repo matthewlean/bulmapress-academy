@@ -1,6 +1,10 @@
 /*Copyright 2017 Keytek */
 /*
 /* Main styling // ----------------------------------*/
+body , html{
+  font-size: inherit;
+  background-color: #fff;
+}
 .main-header .main .title{
   font-size: 5em;
   font-weight: 600;
@@ -34,7 +38,17 @@
  }
  /*Helpers*/
 .m-t-10{margin-top: 10px}
+.m-t-40{margin-top: 40px}
+.m-b-20{margin-bottom: 20px}
+.m-tb-20{margin: 20px 0}
+.m-b-40{margin-bottom: 40px}
 
+
+.is-narrow{max-width: 750px;}
+
+.size-200-200{width: 20%;height: initial;}
+
+.w-850-center{max-width: 850px;margin: 0 auto;}
 
  /*Blog Post Styling*/
  .the-post{
@@ -123,7 +137,6 @@
  font-family: Open Sans, sans-serif;
  font-size: 20px;
  font-weight: 700;
- margin-bottom: 0px!important;
  margin-top: 0px!important;
 }
 .course h3{
@@ -151,6 +164,72 @@
  font-size: 21px;
  line-height: 1.58;
  letter-spacing: .01em;
+}
+.field.is-grouped {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+.control.has-icons-left .icon, .control.has-icons-right .icon {
+    color: #dbdbdb;
+    height: 2.25em;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    width: 2.25em;
+    z-index: 4;
+}
+.control.has-icons-left .input, .control.has-icons-left .select select {
+    padding-left: 2.25em;
+}
+.field.is-grouped > .control.is-expanded {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+}
+.hero.is-neon-green {
+    background-color: #29cb71;
+    color: #fff;
+}
+
+/*#who-is-this-guide-for .picture:hover{
+opacity: 0.7;
+transition: ease 0.2;
+}*/
+
+#additional h1{
+  color: #29cb71;
+  font-size: 25px;
+  font-weight: 600;
+}
+#additional h2{
+  color: #4b515b;
+  font-size: 20px;
+  font-weight: 600;
+}
+#additional ul{
+  list-style: disc outside;
+  margin-left: 2em;
+}
+
+/*Maps Overflow Fix*/
+.google-maps {
+  position: relative;
+  padding-bottom: 50%; // This is the aspect ratio
+  height: 0;
+  overflow: hidden;
+}
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
 }
 
 /*Nav style*/
@@ -188,7 +267,12 @@
   padding: 3px 7px;
   width: fit-content;
 }
-
+.has-text-white{
+  color: #fff;
+}
+.is-size-4{
+  font-size: 1.5rem;
+}
 /*Landing*/
 .landing .card .card-content {
   min-height: 0px;
@@ -212,6 +296,11 @@
     background-color: #6eb43f;
     border-color: #6eb43f;
     color: #fff;
+}
+.button.is-white.is-outlined:hover, .button.is-white.is-outlined:focus {
+    background-color: #fff;
+    border-color: #fff;
+    color: #29cb71;
 }
 
 /*Gradient Colours*/
@@ -238,12 +327,20 @@
 .pad-top-40{
   padding-top: 40px;
 }
+.pad-bot-20{
+  padding-bottom: 20px;
+}
 .green-bold{
   font-weight: 400;
   color: #77ad1a;
 }
 .is-center{
   display:flex;justify-content:center;align-items:center;
+}
+.is-green-fill{
+  color: #fff;
+  background-color: #77ad1a;
+  border: none;
 }
 .is-green{
   color: #77ad1a;
@@ -291,102 +388,6 @@
 .comparison #no-hover:hover{
   background-color: rgba(255, 255, 255, 0);;
 }
-
-/*
-.comparison td,
-.comparison th {
-  border-right: 1px solid #E8E8E8;
-  empty-cells: show;
-  padding: 20px;
-  border-top: 1px solid #E8E8E8;
-  border-bottom: 1px solid #E8E8E8;
-  color: #808080;
-  font-size: 15px;
-}
-
-.comparison tbody tr:nth-child(odd) {
-  display: none;
-}
-
-.comparison .compare-row {
-  background: #F7F7F7;
-}
-
-.fa-check {
-  color: #77ad1a;
-}
-
-.comparison th {
-  font-weight: normal;
-  padding: 0;
-  border-top: 0px solid #E8E8E8;
-  border-bottom: 0px solid #E8E8E8;
-}
-
-.comparison tr td:first-child {
-  text-align: left;
-  padding: 15px;
-  border-left: 1px solid #E8E8E8;
-  border-top: 1px solid #E8E8E8;
-}
-
-.comparison .product,
-.comparison .tl {
-  color: #FFF;
-  padding: 10px;
-  font-size: 14px;
-}
-
-.comparison .tl2 {
-  border-right: 0;
-}
-
-.comparison .product {
-  background: #69C7F1;
-  height: 40px;
-  font-size: 1.6em;
-}
-
-.comparison .price-info {
-  padding: 15px;
-}
-
-.comparison .price-now,
-.comparison .price-now span {
-  color: #808080;
-}
-
-.comparison .price-now span {
-  font-size: 36px;
-  color: #545454;
-}
-
-.comparison .price-now p {
-  font-size: 14px;
-  text-align: center;
-  line-height: 16px;
-  display: inline;
-}
-
-.comparison .price-buy {
-  background: #EC671A;
-  padding: 10px 20px;
-  font-size: 14px;
-  display: inline-block;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 3px;
-  text-transform: uppercase;
-  margin: 5px 0 10px 0;
-  letter-spacing: 1px;
-  cursor: pointer;
-  -webkit-transition: .3s all ease;
-  transition: .3s all ease;
-}
-
-.comparison .price-buy:hover {
-  background: #E84D00;
-}*/
 
 @media screen and (min-width: 721px) and (max-width: 1000px) {
   .table_ul li {

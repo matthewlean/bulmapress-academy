@@ -27,7 +27,7 @@ get_header(); ?>
 	<?php endif; ?>
 
 <div id="primary" class="content-area">
-	<main id="main" class="site-main wrapper" role="main">
+	<main id="main" class="site-main" role="main">
 		<?php while ( have_posts() ) : the_post(); ?>
 			<?php get_template_part( 'template-parts/content' ); ?>
 			<?php bulmapress_get_comments(); ?>
