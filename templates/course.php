@@ -48,14 +48,16 @@
 	</main>
 </div>
 
-<!-- <div class="hero-foot">
+<!-- Subnav  -->
+<div class="hero-foot">
 	<div class="container">
 		<nav class="tabs is-boxed" role="navigation">
 			<?php bulmapress_sub_navigation(); ?>
 		</nav>
 	</div>
-</div> -->
+</div>
 
+<!-- Editable Top Wordpress Content -->
 <section class="hero">
 <div class="hero-body">
 	<div class="container">
@@ -71,6 +73,7 @@
 </div>
 </section>
 
+<!-- Newsletter Section -->
 <section id="newsletter" class="hero is-neon-green">
   <div class="hero-body">
 		<div class="container">
@@ -85,8 +88,8 @@
 
     <div class="column">
 			<div class="field">
-				<p class="control has-icons-left has-icons-right" style="height: 48px;">
-					<input class="input" type="email" placeholder="Email" style="height: 48px;font-size: 20px;">
+				<p class="control has-icons-left has-icons-right has-addons" style="height: 48px;">
+					<input class="input is-medium" type="text" style="height: 48px;font-size: 20px;" placeholder="Email Address"><button style="height: 48px;font-size: 20px;" class="button is-white is-inverted is-outlined is-medium">Submit</button>
 			    <span class="icon is-small-medium is-left is-center">
 			      <i class="fa fa-envelope"></i>
 			    </span>
@@ -96,7 +99,7 @@
 
     </div>
   </div>
-</div>
+	</div>
 </section>
 
 <section class="hero">
