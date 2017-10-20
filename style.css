@@ -10,12 +10,12 @@ body , html{
   font-weight: 600;
 }
 .main-header .title{
-  font-size: 5em;
+  font-size: 4em;
   font-weight: 600;
   color: #fff;
 }
 .main-header .subtitle{
-  font-size: 3em;
+  font-size: 2em;
   font-weight: 400;
   color: #fff;
 }
@@ -52,7 +52,7 @@ body , html{
 .pad-bot-20{padding-bottom: 20px;}
 .green-bold{font-weight: 400;color: #77ad1a;}
 .is-center{display:flex;justify-content:center;align-items:center;}
-.is-size-4{font-size: 1.5rem;}
+.is-size-4{font-size: 1.2rem;}
 
 /* Colours // ----------------------------------*/
 .has-text-grey{color: hsl(0, 0%, 48%)!important;}
@@ -74,6 +74,20 @@ body , html{
 @media screen and (max-width: 770px) {
 #who-is-this-guide-for .columns{overflow-x: scroll;display: flex;}
 .hide-mobile{display: none;}
+.is-video-header{display: none;}
+}
+
+
+/*Angled Header*/
+.angled-header{
+  position: relative;
+}
+.angled-header svg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5vw;
+  /* set height to pixels if you want angle to change with screen width */
 }
 
  /*Blog Post Styling*/

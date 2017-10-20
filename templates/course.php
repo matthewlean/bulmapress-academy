@@ -16,7 +16,7 @@
 <?php get_header(); ?>
 
 <div id="primary" class="content-area landing">
-	<main id="main" class="site-main" role="main">
+	<main id="main" class="site-main angled-header" role="main">
 		<section class="main-header hero home is-medium" style="background-image: url( <?php the_post_thumbnail_url(); ?>); background-size: cover;
     background-repeat: no-repeat;" />
 		  <div class="hero-body">
@@ -35,12 +35,15 @@
 						</p>
 							<a class="button is-green-fill is-large" href="/">Apply Now</a>
 				  </div>
-				  <div class="column is-half">
+				  <div class="column is-half is-video-header">
 						<iframe width="100%" height="315px" src="https://www.youtube.com/embed/9aPkUE3WUGs?rel=0&amp;controls=0" frameborder="0" allowfullscreen></iframe>
 				  </div>
 				</div>
 			</div>
 		  </div>
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+				<polygon fill="white" points="0,100 100,0 100,100"/>
+			</svg>
 		</section>
 	</main>
 </div>
