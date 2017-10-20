@@ -76,45 +76,16 @@
     <div class="container is-narrow">
       <!-- Begin MailChimp Signup Form -->
       <div id="8DayLevel4" class="columns is-vcentered">
-        <div class="column is-one-third is-left">
+        <div class="column is-one-third is-left is-center">
 					<a class="button is-white is-inverted is-outlined is-large">01202 7111 95</a>
         </div>
 
-        <div class="column">
-          <!-- <form action="https://bbxdesign.us3.list-manage.com/subscribe/post?u=b43b93fe633f0560b2a72a69c&amp;id=52585e8803" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate">
-            <div id="mc_embed_signup_scroll">
-              <div class="field is-grouped">
-                <div class="control has-icons-left is-expanded">
-                  <input type="email" value="" name="EMAIL" class="input is-flat required email" id="mce-EMAIL" placeholder="email address" required="" aria-required="true">
-                  <span class="icon is-small is-left">
-                    <i class="fa fa-envelope"></i>
-                  </span>
-                </div>
-                <div class="control">
-                  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button is-white is-outlined">
-                </div>
-              </div>
-              <div id="mce-responses">
-                <div class="notification is-danger response" id="mce-error-response" style="display:none"></div>
-                <div class="notification is-success response" id="mce-success-response" style="display:none"></div>
-              </div> -->
-              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups
-              <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                <input type="text" name="b_b43b93fe633f0560b2a72a69c_52585e8803" tabindex="-1" value="">
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-      <!--End mc_embed_signup-->
+    <div class="column">
 			<div class="field">
-			  <p class="control has-icons-left has-icons-right">
-			    <input class="input" type="email" placeholder="Email">
-			    <span class="icon is-small is-left">
+				<p class="control has-icons-left has-icons-right" style="height: 48px;">
+					<input class="input" type="email" placeholder="Email" style="height: 48px;font-size: 20px;">
+			    <span class="icon is-small-medium is-left is-center">
 			      <i class="fa fa-envelope"></i>
-			    </span>
-			    <span class="icon is-small is-right">
-			      <i class="fa fa-check"></i>
 			    </span>
 			  </p>
 			</div>
@@ -291,7 +262,7 @@
 			    First column
 			  </div>
 			  <div class="column">
-			    <h1 font-size="20px";>Mailing List <i class="fa fa-envelope-o" aria-hidden="true"></i></h1>
+			    <h1 style="font-size: 2em!important; font-weight: 600!important;">Mailing List <i class="fa fa-envelope-o" aria-hidden="true"></i></h1>
 					<p class="m-tb-20 is-white">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit
 						Vivamus efficitur felis erat, et efficitur nisl semper et.
