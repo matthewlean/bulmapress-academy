@@ -67,7 +67,13 @@ body , html{
 /*Helpers*/
 .has-text-weight-bold{font-weight: 600!important;}
 .green-highlighted-text{background-color: #6eb43f;padding: 3px 7px;width: fit-content;}
-.has-text-white{color: #fff;
+.has-text-white{color: #fff;}
+.is-vcentered {-webkit-box-align: center;-ms-flex-align: center;align-items: center;}
+
+/*Mobile Helpers*/
+@media screen and (max-width: 770px) {
+#who-is-this-guide-for .columns{overflow-x: scroll;display: flex;}
+.hide-mobile{display: none;}
 }
 
  /*Blog Post Styling*/
