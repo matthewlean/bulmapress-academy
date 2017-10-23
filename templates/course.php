@@ -49,13 +49,13 @@
 </div>
 
 <!-- Subnav  -->
-<div class="hero-foot">
+<!-- <div class="hero-foot">
 	<div class="container">
 		<nav class="tabs is-boxed" role="navigation">
 			<?php bulmapress_sub_navigation(); ?>
 		</nav>
 	</div>
-</div>
+</div> -->
 
 <!-- Editable Top Wordpress Content -->
 <section class="hero">
@@ -86,7 +86,7 @@
 					<a class="button is-white is-inverted is-outlined is-large">01202 7111 95</a>
         </div>
 
-    <div class="column">
+    <div class="column is-center">
 			<div class="field">
 				<p class="control has-icons-left has-icons-right has-addons" style="height: 48px;">
 					<input class="input is-medium" type="text" style="height: 48px;font-size: 20px;" placeholder="Email Address"><button style="height: 48px;font-size: 20px;" class="button is-white is-inverted is-outlined is-medium">Submit</button>
@@ -216,17 +216,17 @@
 <section class="hero is-medium has-bg-img quote">
 	<div class="hero-body">
 		<div class="container has-text-centered w-850-center">
-			<div class="tile is-center card-content ">
-				<article class="tile is-child notification is-primary">
-					<div class="container">
+			<div class="tile is-center card-content is-purple">
+				<article class="tile is-child is-primary">
+					<div style="-webkit-text-fill-color: #fff;" class="container">
 						<i class="fa fa-star" aria-hidden="true"></i>
 						<i class="fa fa-star" aria-hidden="true"></i>
 						<i class="fa fa-star" aria-hidden="true"></i>
 						<i class="fa fa-star" aria-hidden="true"></i>
 						<i class="fa fa-star" aria-hidden="true"></i>
 					</div>
-	      	<p class="title">"The Assessment was well worked out!"</p>
-	        <p class="subtitle">- Colin Preston</p>
+	      	<p class="title has-text-white">"The Assessment was well worked out!"</p>
+	        <p class="subtitle has-text-white">- Colin Preston</p>
 	      </article>
 			</div>
 		</div>

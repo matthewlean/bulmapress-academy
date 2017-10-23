@@ -51,7 +51,7 @@
 
 <section class="hero">
 <div class="hero-body">
-	<div class="container">
+	<div class="container" id="course-boxes">
 		<div class="tile is-ancestor">
 			<!-- Course 1 -->
 			<div class="tile is-parent is-6">
@@ -204,9 +204,9 @@
 	<div class="hero-body">
 		<div class="container has-text-centered w-850-center">
 			<div class="tile is-center card-content ">
-			<article class="tile is-child notification is-primary">
-          	<p class="title">"The assessment was well worked out, a great deal of hard work and thought has obviously gone into putting the Assessment together."</p>
-          	<p class="subtitle">- Colin Preston</p>
+			<article style="padding: 10px;" class="tile is-child is-purple is-primary">
+          	<p class="title has-text-white">"The assessment was well worked out, a great deal of hard work and thought has obviously gone into putting the Assessment together."</p>
+          	<p class="subtitle has-text-white">- Colin Preston</p>
         	</article>
 			</div>
 		</div>
