@@ -18,6 +18,8 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<?php wp_head(); ?>
 	<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
+	<!-- Javascript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </head>
 
 <body <?php body_class(); ?>>
@@ -28,7 +30,7 @@
 				<div class="container">
 					<nav id="site-navigation" class="nav main-navigation" role="navigation">
 						<div class="nav-left">
-							<a href="<?php bulmapress_home_link ?>">
+							<a href="http://new.locksmiths-training.co.uk/">
 							<figure class="image nav-logo">
   								<img src="<?php $custom_logo_id = get_theme_mod( 'custom_logo' );
 								$image = wp_get_attachment_image_src( $custom_logo_id , 'full' );

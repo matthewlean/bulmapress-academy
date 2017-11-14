@@ -65,6 +65,15 @@ $args = array(
 );
 add_theme_support( 'custom-header', $args );
 
+// Thumbnails
+add_theme_support( 'post-thumbnails' );
+
+// Continue Reading
+function tyler_excerpt_more( $more ) {
+    return 'Read the whole post &gt;&gt;'; // again, change to your liking
+}
+add_filter( 'excerpt_more', 'tyler_excerpt_more' );
+
 // Add custom css
 function add_stylesheet_to_head() {
     echo "<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>";
@@ -81,3 +90,8 @@ add_theme_support( 'mytheme_has_featured_posts', array(
     'max_posts'  => 2,
     'post_types' => array( 'page' ),
 ) );
+
+// Upload Size Increase
+@ini_set( 'upload_max_size' , '64M' );
+@ini_set( 'post_max_size', '64M');
+@ini_set( 'max_execution_time', '300' );

@@ -19,26 +19,37 @@
 	<main id="main" class="site-main" role="main">
 		<section class="main-header hero home is-medium" style="background-image: url( <?php header_image(); ?>); background-size: cover;
     background-repeat: no-repeat;" />
-		  <div class="hero-body">
-		    <div class="container">
-		      <h1 class="title">
-						Locksmith Training
-			     </h1>
-		      <h2 class="subtitle">
-			        securing your future
-			     </h2>
-					 <a class="button is-dark is-large" href="/">
-                <span>
-                  <strong>Learn More</strong>
-                </span>
-            </a>
-						<a class="button is-light is-large" href="/">
-                 <span>
-                   <strong>Apply Now <i class="fa fa-check-circle-o fa-3x" aria-hidden="true"></i></strong>
-                 </span>
-             </a>
-		    </div>
-		  </div>
+			<div class="hero-body">
+				<div class="container">
+				<div class="columns" style="display: flex;justify-content: center;align-items: center;height: 100%;">
+				  <div class="column is-half">
+						<h1 class="title">
+							Locksmith Training
+				     </h1>
+			      <h2 class="subtitle">
+				       securing your future
+				     </h2>
+						 <a class="button is-dark is-large" href="/">
+	                <span>
+	                  <strong>Read More</strong>
+	                </span>
+	            </a>
+							<a class="button is-info is-large" href="tel:01202711195">
+	                 <span>
+	                   <strong>Call Now <i class="fa fa-phone" aria-hidden="true"></i></strong>
+	                 </span>
+	             </a>
+				  </div>
+				  <div class="column is-half hide-mobile">
+						<!-- Right Column -->
+					</div>
+				</div>
+			</div>
+		 </div>
+		 <div class="container">
+
+		</div>
+
 		</section>
 
 		<div class="hero-foot">
@@ -51,12 +62,12 @@
 
 <section class="hero">
 <div class="hero-body">
-	<div class="container" id="course-boxes">
-		<div class="tile is-ancestor">
+	<div id="course-tiles" class="container">
+		<div class="columns is-desktop">
 			<!-- Course 1 -->
-			<div class="tile is-parent is-6">
+			<div class="column is-half-desktop">
 				<article class="tile is-child notification is-dark col-1-border-t">
-					<p class="small green-highlighted-text">TOP COURSE</p>
+					<!-- <p class="small green-highlighted-text">TOP COURSE</p> -->
 					<h1 class="title has-text-weight-bold">8 Day - Level 4</h1>
 					<p class="subtitle">‘Experience Package’</p>
 					<div class="content">
@@ -68,12 +79,13 @@
 						</p>
 						<p class="price">£2649 + VAT</p>
 					</div>
-					<a class="button is-green is-inverted is-outlined is-medium">View</a>
+					<a class="button is-green is-inverted is-outlined is-medium" href="keytek-8-day-level-4-experience-package/">View</a>
 				</article>
 			</div>
 			<!-- Course 2 -->
-			<div class="tile is-parent is-3">
+			<div class="column is-quater-desktop">
 		    <article class="tile is-child notification is-dark col-2-border-t">
+					<p class="small green-highlighted-text">TOP COURSE</p>
 		      <p class="title has-text-weight-bold">5 Day - Level 4</p>
 		      <p class="subtitle">‘The Complate Package’</p>
 		      <div class="content">
@@ -86,11 +98,11 @@
 						</p>
 						<p class="price">£2149 + VAT</p>
 		      </div>
-					<a class="button is-green is-inverted is-outlined is-medium">View</a>
+					<a class="button is-green is-inverted is-outlined is-medium" href="keytek-5-day-level-4-accredited-course">View</a>
 		    </article>
 		  </div>
 			<!-- Course 3 -->
-		  <div class="tile is-parent is-3">
+		  <div class="column is-quater-desktop">
 		    <article class="tile is-child notification is-dark col-3-border-t">
 		      <p class="title has-text-weight-bold">2 Day - Level 4</p>
 		      <p class="subtitle">‘Non Destructive Entry & uPVC’</p>
@@ -104,13 +116,13 @@
 						</p>
 						<p class="price">£495 + VAT</p>
 		      </div>
-					<a class="button is-green is-inverted is-outlined is-medium">View</a>
+					<a class="button is-green is-inverted is-outlined is-medium" href="keytek-two-day-non-destructive-entry-and-upvc-course">View</a>
 		    </article>
 		  </div>
 		</div>
 		<div class="tile is-ancestor">
 			<!-- Course 4 -->
-			<div class="tile is-parent is-3">
+			<div class="column is-quater-desktop">
 				<article class="tile is-child notification is-dark col-4-border-t">
 					<p class="title has-text-weight-bold">Fitment Course</p>
 					<p class="subtitle">‘Brush up Course’</p>
@@ -124,11 +136,11 @@
 						</p>
 						<p class="price">£399 + VAT</p>
 					</div>
-					<a class="button is-green is-inverted is-outlined is-medium">View</a>
+					<a class="button is-green is-inverted is-outlined is-medium" href="keytek-1-day-fitment-course">View</a>
 				</article>
 			</div>
 			<!-- Course 5 -->
-			<div class="tile is-parent is-3">
+			<div class="column is-quater-desktop">
 				<article class="tile is-child notification is-dark col-4-border-t">
 					<p class="title has-text-weight-bold">1 Day - uPVC</p>
 					<p class="subtitle">‘uPVC  Insight Course’</p>
@@ -142,11 +154,11 @@
 						</p>
 						<p class="price">£299 + VAT</p>
 					</div>
-					<a class="button is-green is-inverted is-outlined is-medium">View</a>
+					<a class="button is-green is-inverted is-outlined is-medium" href="keytek-1-day-upvc-course">View</a>
 				</article>
 			</div>
 			<!-- Course 6 -->
-			<div class="tile is-parent is-3">
+			<div class="column is-quater-desktop">
 				<article class="tile is-child notification is-dark col-4-border-t">
 					<p class="title has-text-weight-bold">1 Day - Non Destructive</p>
 					<!-- <p class="subtitle">Subtitle</p> -->
@@ -158,18 +170,18 @@
 							it can be the confidence in the tools ..
 						</p>
 						<p class="price">£295 + VAT</p>
-						<a class="button is-green is-inverted is-outlined is-medium">View</a>
+						<a class="button is-green is-inverted is-outlined is-medium" href="keytek-1-day-non-destructive-entry-course">View</a>
 					</div>
 				</article>
 			</div>
 			<!-- All Courses -->
-			<div class="tile is-parent is-3">
+			<div class="column is-quater-desktop">
 				<article class="tile is-child notification box">
 					<div class="All-courses" style="display:flex;justify-content: center;align-items: center;height: 100%;">
 						<!-- <p class="subtitle">Subtitle</p> -->
 						<div class="content has-text-centered">
 							<p class="title has-text-weight-bold">All Courses</p>
-							<a class="button is-green is-inverted is-outlined is-medium">View All</a>
+							<a href="courses/" class="button is-green is-inverted is-outlined is-medium">View All</a>
 						</div>
 					</div>
 				</article>
@@ -202,12 +214,19 @@
 
 <section class="hero is-medium has-bg-img quote">
 	<div class="hero-body">
-		<div class="container has-text-centered w-850-center">
+		<div class="container has-text-centered w-850-center quote-container">
 			<div class="tile is-center card-content ">
 			<article style="padding: 10px;" class="tile is-child is-purple is-primary">
+				<!-- Quote 1 -->
+				<div id="content-1">
           	<p class="title has-text-white">"The assessment was well worked out, a great deal of hard work and thought has obviously gone into putting the Assessment together."</p>
           	<p class="subtitle has-text-white">- Colin Preston</p>
-        	</article>
+				</div>
+				<div id="content-2">
+					<p class="title has-text-white">"The Accreditation itself was well structured but still relaxed and it was great to meet other guys in the trade."</p>
+					<p class="subtitle has-text-white">-  Terry Read</p>
+				</div>
+      </article>
 			</div>
 		</div>
 	</div>
@@ -220,13 +239,13 @@
         Interested in becoming a locksmith?
       </h1>
 			<p class="field has-text-centered">
-		  <a class="button is-info is-outlined is-medium">
+		  <a class="button is-info is-outlined is-large">
 		    <span class="icon">
 		      <i class="fa fa-sign-in"></i>
 		    </span>
 		    <span>Sign Up</span>
 		  </a>
-		  <a class="button is-success is-outlined is-medium">
+		  <a id="download-pack-button" class="button is-success is-outlined is-large">
 		    <span class="icon">
 		      <i class="fa fa-download"></i>
 		    </span>
@@ -253,7 +272,7 @@
 				<thead>
 					<tr id="no-hover">
 						<th class="is-no-border"></th>
-						<th style="background-color:#77ad1a; border-top: 3px solid #77ad1a;border-left: 3px solid #77ad1a;border-right: 3px solid #77ad1a;"><img src="http://localhost/wordpress/wp-content/uploads/2017/10/keytek-academy-logo-white.png"></th>
+						<th style="background-color:#77ad1a; border-top: 3px solid #77ad1a;border-left: 3px solid #77ad1a;border-right: 3px solid #77ad1a;"><img src="http://new.locksmiths-training.co.uk/wp-content/uploads/2017/10/keytek-academy-logo-white.png"></th>
 						<th style="padding: 15px 50px; font-size: 18px;">Other Locksmith Courses</th>
 					</tr>
 				</thead>
@@ -326,6 +345,22 @@
 
 </main><!-- #main -->
 </div><!-- #primary -->
+
+<!-- Quote Section -->
+<script >
+var divs = $('div[id^="content-"]').hide(),
+		i = 0;
+
+(function cycle() {
+
+		divs.eq(i).fadeIn(600)
+							.delay(4000)
+							.fadeOut(600, cycle);
+
+		i = ++i % divs.length;
+
+})();
+</script>
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

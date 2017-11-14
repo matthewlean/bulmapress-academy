@@ -1,6 +1,6 @@
 <?php
 /**
- * Template name: Course
+ * Template name: 2 Day Non-Destructive Entry and uPVC Course
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -27,11 +27,10 @@
 							<?php bulmapress_the_title('is-1', FALSE); ?>
 				     </h1>
 			      <h2 class="subtitle">
-				        "Experience Package"
+				        "Non Destructive Entry & uPVC"
 				     </h2>
 						 <p class="has-text-white has-text-weight-bold is-size-4 pad-bot-20">
-							 This Eight Day Course will not only provide you with a
-								comprehensive understanding and practical application
+							 The Keytek™ non-destructive entry and uPVC course covers all aspects of uPVC and wooden door lock identification and the correct tools to use, as well as bypassing and opening various types of doors and locks.
 						</p>
 							<a class="button is-green-fill is-large" href="/">Apply Now</a>
 				  </div>
@@ -236,23 +235,34 @@
 <section class="hero">
 <div class="hero-body">
 	<div class="container" id="additional">
-				<h1>Additional 8 Day Course Information</h1>
-				<h2 class="m-tb-20">Skill Enhancement Sessions</h2>
-				<p>These one on one sessions can be used as time to develop your techniques as a locksmith, it will give you the opportunity to hone your skills and to go back over anything you have learnt over the previous week.</p>
-				<h2 class="m-tb-20">Real Life Scenario Training</h2>
-				<p class="m-tb-20">These training sessions are conducted within the practical training areas of the Academy, where commonly found scenarios will be played out. Using your new skills you will be faced with several different scenarios that any mobile locksmith will encounter whilst out on the road. These may include:</p>
+				<h1 class="m-tb-20">Additional 2 Day Course Information</h1>
+				<h2 class="m-tb-20">The uPVC course section includes;</h2>
 				<p>
 					<ul>
-						<li>Various scenarios to gain entry to uPVC and wooden doors following a lock out, using a wide variety of techniques</li>
-						<li>Following a break in, offering relevant security advise to the customer</li>
-						<li>Upgrading home security, including doors and windows</li>
-						<li>Removing snapped keys from a variety of locks</li>
-						<li>Identifying faults on uPVC mechanisms and ordering replacement parts</li>
-						<li>Gaining entry to a vehicle, when keys have been lost or locked inside</li>
+						<li>Identification, operation, usage, measuring and ordering of cylinders</li>
+						<li>Opening techniques for euro/oval cylinders</li>
+						<li>Opening techniques for uPVC mechanisms</li>
+						<li>Removing, measuring, identifying and refitting uPVC mechanisms and handles</li>
+						<li>Retrofitting</li>
+						<li>Window locks</li>
+						<li>Additional security for uPVC doors and windows</li>
 					</ul>
 				</p>
-				<h2 class="m-tb-20">On-site Locksmith Shadowing</h2>
-				<p>This is a unique opportunity to shadow an experienced locksmith on the road whilst he completes Keytek™ customer jobs, giving you an insight into the types of jobs that you will come across on a daily basis as a locksmith, witnessing first hand the techniques that you will have learnt being put into practice. This is also an ideal time to ask any questions of the locksmith that you may have.</p>
+				<h2 class="m-tb-20">The non-destructive entry section of the course includes;</h2>
+				<p>
+					<ul>
+						<li>Mortice lock identification</li>
+						<li>Understanding the components of a de-cased mortice lock</li>
+						<li>Re-levering mortices</li>
+						<li>Re-handing mortice sash locks</li>
+						<li>Picking 2,3 and 5 lever mortice locks</li>
+						<li>Professional destructive entry</li>
+						<li>Door repair</li>
+					</ul>
+				</p>
+				<p class="m-tb-20">We have a huge range of non-destructive opening tools and have pre-selected the best tools available on the market that are proven to work and have both these ranges available for in house testing throughout the course.</p>
+				<p class="m-tb-20">The non-destructive entry and uPVC course is carried out over 2 days with class numbers limited to a maximum of 6 people per course. An existing understanding of uPVC Doors and locking systems above is desirable but not essential.</p>
+				<p class="m-tb-20">One on One expert tuition available – enquire for more details.</p>
 				<div class="google-maps m-t-40">
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2524.653878715499!2d-1.9521893485264126!3d50.74490817941667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4873a1514d6200c5%3A0xd94f650518a220a!2sKeytek+Locksmith+Training+Academy!5e0!3m2!1sen!2suk!4v1508423974149" width="400" height="70" frameborder="0" style="border:0" allowfullscreen></iframe>
 				</div>
