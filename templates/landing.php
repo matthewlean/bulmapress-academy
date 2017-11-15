@@ -191,6 +191,7 @@
 </div>
 </section>
 
+		<!-- Old Auto Display Post Section -->
 		<?php
 		// bulmapress_custom_query(array(
 		// 	'post_type' => 'page',
@@ -212,51 +213,12 @@
 		// );
 		?>
 
-<section class="hero is-medium has-bg-img quote">
-	<div class="hero-body">
-		<div class="container has-text-centered w-850-center quote-container">
-			<div class="tile is-center card-content ">
-			<article style="padding: 10px;" class="tile is-child is-purple is-primary">
-				<!-- Quote 1 -->
-				<div id="content-1">
-          	<p class="title has-text-white">"The assessment was well worked out, a great deal of hard work and thought has obviously gone into putting the Assessment together."</p>
-          	<p class="subtitle has-text-white">- Colin Preston</p>
-				</div>
-				<div id="content-2">
-					<p class="title has-text-white">"The Accreditation itself was well structured but still relaxed and it was great to meet other guys in the trade."</p>
-					<p class="subtitle has-text-white">-  Terry Read</p>
-				</div>
-      </article>
-			</div>
-		</div>
-	</div>
-</section>
+<!-- Quote Section -->
+<?php get_template_part('template-parts/quote-section'); ?>
 
-<section class="hero is-medium">
-  <div class="hero-body">
-    <div class="container">
-      <h1 class="title has-text-centered">
-        Interested in becoming a locksmith?
-      </h1>
-			<p class="field has-text-centered">
-		  <a class="button is-info is-outlined is-large">
-		    <span class="icon">
-		      <i class="fa fa-sign-in"></i>
-		    </span>
-		    <span>Sign Up</span>
-		  </a>
-		  <a id="download-pack-button" class="button is-success is-outlined is-large">
-		    <span class="icon">
-		      <i class="fa fa-download"></i>
-		    </span>
-		    <span>Download our info pack</span>
-		  </a>
-			<p class="field has-text-centered m-t-10">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-			</p>
-    </div>
-  </div>
-</section>
+<!-- Download Pack Section -->
+<?php get_template_part('template-parts/download-pack-section'); ?>
+
 
 <div class="line-break">
 </div>
@@ -346,21 +308,6 @@
 </main><!-- #main -->
 </div><!-- #primary -->
 
-<!-- Quote Section -->
-<script >
-var divs = $('div[id^="content-"]').hide(),
-		i = 0;
-
-(function cycle() {
-
-		divs.eq(i).fadeIn(600)
-							.delay(4000)
-							.fadeOut(600, cycle);
-
-		i = ++i % divs.length;
-
-})();
-</script>
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

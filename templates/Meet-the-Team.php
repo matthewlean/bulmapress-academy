@@ -139,7 +139,25 @@
 	</div>
 </section>
 
-	</main><!-- #main -->
+<section class="hero">
+<div class="hero-body">
+	<div class="secondaryPage-container">
+		<div id="primary" class="content-area">
+			<main id="main" class="site-main wrapper post has-text-centered" role="main">
+				<p class="has-text-centered">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquet molestie pellentesque.
+					Donec aliquet eros nunc, eget iaculis orci consequat at. Donec ac lacinia nunc.
+					Morbi ligula turpis, scelerisque et sapien non, congue volutpat ex. Nam dapibus elit sed nibh ultrices volutpat.
+					Vestibulum dictum consequat pretium. Pellentesque ullamcorper quam a ante malesuada, at sagittis risus suscipit.
+					Maecenas tempus vulputate aliquet. Ut ac massa ex.
+				</p>
+			</main><!-- #main -->
+		</div><!-- #primary -->
+	</div>
+</div>
+</section>
+
+</main><!-- #main -->
 </div><!-- #primary -->
 
 <?php get_sidebar(); ?>

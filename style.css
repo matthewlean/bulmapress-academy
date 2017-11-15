@@ -100,10 +100,13 @@ background: linear-gradient(to right, #0f6aea 0%,#00ff72 100%); /* W3C, IE10+, F
 .hide-mobile{display: none;}
 .is-video-header{display: none;}
 }
+
 /* Small Mobile Helpers // ----------------------------------*/
 @media screen and (max-width: 510px) {
 #download-pack-button{margin-top: 20px;}
 #the-team .columns{display: block;}
+#quote-section .hero-body{height:275px;}
+#quote-section .title{font-size: 16px!important;}
 }
 
 /*Quote Section*/
