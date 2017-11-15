@@ -26,7 +26,7 @@ body , html{
   display:flex;justify-content:center;align-items:center;
 }
 .has-bg-img {
-  background: url('http://new.locksmiths-training.co.uk/wp-content/uploads/2017/10/quote-hero.jpg')center center;
+  background: url('http://new.locksmiths-training.co.uk/wp-content/uploads/2017/11/quote-hero.jpg')center center;
   background-size:cover;
  }
  .quote .subtitle{
@@ -41,8 +41,11 @@ body , html{
 .team-profile img{width: 160px;height: 160px;border-radius: 100px;margin: 0 auto;}
 
 /* Misc Sizes // ----------------------------------*/
+.h-100{height: 100px;}
+
 .m-t-10{margin-top: 10px!important}
 .m-t-40{margin-top: 40px!important}
+.m-b-10{margin-bottom: 10px!important}
 .m-b-20{margin-bottom: 20px!important}
 .m-tb-20{margin: 20px 0!important}
 .m-b-40{margin-bottom: 40px!important}
@@ -150,6 +153,47 @@ textarea
   color: #363636;
 display: block;
 font-weight: bold;
+}
+.button{
+  -webkit-appearance: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-size: 1rem;
+    height: 2.25em;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    line-height: 1.5;
+    padding-bottom: calc(0.375em - 1px);
+    padding-left: calc(0.625em - 1px);
+    padding-right: calc(0.625em - 1px);
+    padding-top: calc(0.375em - 1px);
+    position: relative;
+    vertical-align: top;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: white;
+    border-color: #dbdbdb;
+    color: #363636;
+    cursor: pointer;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    text-align: center;
+    white-space: nowrap;
 }
 
 /*Angled Header*/
@@ -319,10 +363,9 @@ font-weight: bold;
   font-size: inherit;
 }
 
-/*#who-is-this-guide-for .picture:hover{
-opacity: 0.7;
-transition: ease 0.2;
-}*/
+#who-is-this-guide-for svg{
+max-height: 200px;
+}
 
 #additional h1{
   color: #29cb71;

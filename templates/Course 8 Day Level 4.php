@@ -33,7 +33,7 @@
 							 This Eight Day Course will not only provide you with a
 								comprehensive understanding and practical application
 						</p>
-							<a class="button is-white is-inverted is-outlined is-large" href="/">Apply Now</a>
+							<a class="button is-white is-inverted is-outlined is-large m-b-10" href="/">Apply Now</a>
 							<a class="button is-white is-inverted is-outlined is-large" href="/">Call for more info <br> <i class="fa fa-phone" aria-hidden="true"></i></a>
 				  </div>
 				  <div class="column is-half is-video-header">
@@ -115,7 +115,7 @@
 							c-6.6,0-12-5.4-12-12v-3c0-6.6,5.4-12,12-12h74c6.6,0,12,5.4,12,12V488z"/>
 					</svg>
 				</div>
-				<h1>Cylinders</h1>
+				<strong>Cylinders</strong>
 				<p>Euro, Oval and Rim</p>
 			</div>
 		  <div class="column is-one-fifth has-text-centered is-one-third-mobile">
@@ -128,7 +128,7 @@
 							s32,14.3,32,32C239.5,417.2,225.2,431.5,207.5,431.5z"/>
 					</svg>
 				</div>
-				Key Cutting
+				<strong>Key Cutting</strong>
 			</div>
 		  <div class="column is-one-fifth has-text-centered is-one-third-mobile">
 				<div class="picture column is-one-fifth has-text-centered">
@@ -149,8 +149,8 @@
 							C189.7,653.3,185.9,657,181.3,657z"/>
 					</svg>
 				</div>
-				Mortice Locks<br>
-				2, 3 and 5 lever Standard
+				<strong>Mortice Locks</strong><br>
+				2, 3 and 5 lever British Standard
 			</div>
 			<div class="column is-one-fifth has-text-centered is-one-third-mobile">
 				<div class="picture column is-one-fifth has-text-centered">
@@ -162,7 +162,7 @@
 							488,556.5 "/>
 					</svg>
 				</div>
-				uPVC Doors<br>
+				<strong>uPVC Doors</strong><br>
 				Locks and Mechanisms
 			</div>
 			<div class="column is-one-fifth has-text-centered is-one-third-mobile">
@@ -181,7 +181,7 @@
 						<circle fill="#29CB71" cx="676.5" cy="498.5" r="21.5"/>
 					</svg>
 				</div>
-				ncfe Certificate<br>
+				<strong>ncfe Certificate</strong><br>
 				Level 4
 			</div>
 		</div>

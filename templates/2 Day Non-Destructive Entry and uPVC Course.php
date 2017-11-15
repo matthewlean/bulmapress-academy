@@ -32,7 +32,8 @@
 						 <p class="has-text-white has-text-weight-bold is-size-4 pad-bot-20">
 							 The Keytek™ non-destructive entry and uPVC course covers all aspects of uPVC and wooden door lock identification and the correct tools to use, as well as bypassing and opening various types of doors and locks.
 						</p>
-							<a class="button is-green-fill is-large" href="/">Apply Now</a>
+							<a class="button is-green-fill is-large m-b-10" href="/">Apply Now</a>
+							<a class="button is-white is-inverted is-outlined is-large" href="/">Call for more info <br> <i class="fa fa-phone" aria-hidden="true"></i></a>
 				  </div>
 				  <div class="column is-half is-video-header">
 						<iframe width="100%" height="315px" src="https://www.youtube.com/embed/9aPkUE3WUGs?rel=0&amp;controls=0" frameborder="0" allowfullscreen></iframe>

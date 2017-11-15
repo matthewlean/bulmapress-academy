@@ -45,7 +45,7 @@
 		<div class="columns">
 
 		  <div class="column is-half">
-				<h1 class="m-tb-20 title">Get in touch</h1>
+				<h1 class="m-tb-20 title"><strong>Get in touch</strong></h1>
 				<p class="m-tb-20">There are several ways to contact Keytek™ Locksmith Training Academy, including by phone, email, post or via web. So don’t hesitate to get in touch with us.<br><br>
 													If you are considering taking a locksmith course with Keytek™ and have any enquiries relating to funding, course content, special requirements or anything else, please let us know and we will gladly answer your questions for you.<br><br>
 													If you have already taken a course with us, we are equally eager to hear from you. Let us know how you got on – we are always looking for ways to improve our training and benefit our students, so any feedback from former students about any part of their course will be gratefully received.</p><br>

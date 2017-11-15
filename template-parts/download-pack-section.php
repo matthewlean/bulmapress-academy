@@ -28,7 +28,7 @@
 		    <span>Download our info pack</span>
 		  </a>
 			<p class="field has-text-centered m-t-10">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				For more information on how to become a locksmith.
 			</p>
     </div>
   </div>

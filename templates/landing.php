@@ -29,7 +29,7 @@
 			      <h2 class="subtitle">
 				       securing your future
 				     </h2>
-						 <a class="button is-dark is-large" href="/">
+						 <a class="button is-dark is-large" href="/about-keytek/">
 	                <span>
 	                  <strong>Read More</strong>
 	                </span>
@@ -161,7 +161,6 @@
 			<div class="column is-quater-desktop">
 				<article class="tile is-child notification is-dark col-4-border-t">
 					<p class="title has-text-weight-bold">1 Day - Non Destructive</p>
-					<!-- <p class="subtitle">Subtitle</p> -->
 					<div class="content">
 						<p>
 							Being able to open a door quickly
@@ -178,7 +177,6 @@
 			<div class="column is-quater-desktop">
 				<article class="tile is-child notification box">
 					<div class="All-courses" style="display:flex;justify-content: center;align-items: center;height: 100%;">
-						<!-- <p class="subtitle">Subtitle</p> -->
 						<div class="content has-text-centered">
 							<p class="title has-text-weight-bold">All Courses</p>
 							<a href="courses/" class="button is-green is-inverted is-outlined is-medium">View All</a>
@@ -234,7 +232,7 @@
 				<thead>
 					<tr id="no-hover">
 						<th class="is-no-border"></th>
-						<th style="background-color:#77ad1a; border-top: 3px solid #77ad1a;border-left: 3px solid #77ad1a;border-right: 3px solid #77ad1a;"><img src="http://new.locksmiths-training.co.uk/wp-content/uploads/2017/10/keytek-academy-logo-white.png"></th>
+						<th style="background-color:#77ad1a; border-top: 3px solid #77ad1a;border-left: 3px solid #77ad1a;border-right: 3px solid #77ad1a;"><img src="http://new.locksmiths-training.co.uk/wp-content/uploads/2017/11/keytek-academy-logo-white.png"></th>
 						<th style="padding: 15px 50px; font-size: 18px;">Other Locksmith Courses</th>
 					</tr>
 				</thead>

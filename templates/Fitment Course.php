@@ -32,7 +32,8 @@
 						 <p class="has-text-white has-text-weight-bold is-size-4 pad-bot-20">
 							 The ‘Keytek™ Fitment Course’ is aimed at locksmiths who perhaps wish to brush up on their fitting techniques. This course covers all aspects of lock fitting and encompasses a wide variety of locks.
 						</p>
-							<a class="button is-green-fill is-large" href="/">Apply Now</a>
+							<a class="button is-green-fill is-large m-b-10" href="/">Apply Now</a>
+							<a class="button is-white is-inverted is-outlined is-large" href="/">Call for more info <br> <i class="fa fa-phone" aria-hidden="true"></i></a>
 				  </div>
 				  <div class="column is-half is-video-header">
 						<iframe width="100%" height="315px" src="https://www.youtube.com/embed/9aPkUE3WUGs?rel=0&amp;controls=0" frameborder="0" allowfullscreen></iframe>

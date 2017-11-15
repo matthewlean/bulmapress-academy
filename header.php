@@ -30,7 +30,7 @@
 				<div class="container">
 					<nav id="site-navigation" class="nav main-navigation" role="navigation">
 						<div class="nav-left">
-							<a href="http://new.locksmiths-training.co.uk/">
+							<a href="/">
 							<figure class="image nav-logo">
   								<img src="<?php $custom_logo_id = get_theme_mod( 'custom_logo' );
 								$image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
