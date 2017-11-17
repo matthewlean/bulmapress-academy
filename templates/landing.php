@@ -29,7 +29,7 @@
 			      <h2 class="subtitle">
 				       securing your future
 				     </h2>
-						 <a class="button is-dark is-large" href="/about-keytek/">
+						 <a class="button is-dark is-large" href="/why-become-a-locksmith/">
 	                <span>
 	                  <strong>Read More</strong>
 	                </span>
@@ -40,7 +40,7 @@
 	                 </span>
 	             </a>
 				  </div>
-				  <div class="column is-half hide-mobile">
+				  <div class="column is-half">
 						<!-- Right Column -->
 					</div>
 				</div>

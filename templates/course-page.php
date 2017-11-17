@@ -1,6 +1,6 @@
 <?php
 /**
- * Template name: Course 5 Day Level 4
+ * Template name: course-page
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -27,17 +27,16 @@
 							<?php bulmapress_the_title('is-1', FALSE); ?>
 				     </h1>
 			      <h2 class="subtitle">
-				        "The Complate Package"
+				        <?php the_field('subtitle'); ?>
 				     </h2>
 						 <p class="has-text-white has-text-weight-bold is-size-4 pad-bot-20">
-							 The Five Day Course will provide you with a comprehensive understanding
-							 and practical application of locksmith techniques..
+							 <?php the_field('header_paragraph'); ?>
 						</p>
-							<a class="button is-green-fill is-large m-b-10" href="/">Apply Now</a>
+							<a class="button is-white is-inverted is-outlined is-large m-b-10" href="/">Apply Now</a>
 							<a class="button is-white is-inverted is-outlined is-large" href="/">Call for more info <br> <i class="fa fa-phone" aria-hidden="true"></i></a>
 				  </div>
 				  <div class="column is-half is-video-header">
-						<iframe width="100%" height="315px" src="https://www.youtube.com/embed/9aPkUE3WUGs?rel=0&amp;controls=0" frameborder="0" allowfullscreen></iframe>
+						<?php the_field('header_video'); ?>
 				  </div>
 				</div>
 			</div>
@@ -49,7 +48,7 @@
 	</main>
 </div>
 
-<!-- Subnav  -->
+<!-- Subnav -->
 <!-- <div class="hero-foot">
 	<div class="container">
 		<nav class="tabs is-boxed" role="navigation">
@@ -77,6 +76,7 @@
 <!-- Callback Email Section -->
 <?php get_template_part( 'template-parts/callback-email-section' ); ?>
 
+<!-- Course Breakdown -->
 <section class="hero">
 	<div class="hero-body">
 		<div class="container">
@@ -115,7 +115,7 @@
 							c-6.6,0-12-5.4-12-12v-3c0-6.6,5.4-12,12-12h74c6.6,0,12,5.4,12,12V488z"/>
 					</svg>
 				</div>
-				<h1>Cylinders</h1>
+				<strong>Cylinders</strong>
 				<p>Euro, Oval and Rim</p>
 			</div>
 		  <div class="column is-one-fifth has-text-centered is-one-third-mobile">
@@ -128,7 +128,7 @@
 							s32,14.3,32,32C239.5,417.2,225.2,431.5,207.5,431.5z"/>
 					</svg>
 				</div>
-				Key Cutting
+				<strong>Key Cutting</strong>
 			</div>
 		  <div class="column is-one-fifth has-text-centered is-one-third-mobile">
 				<div class="picture column is-one-fifth has-text-centered">
@@ -149,8 +149,8 @@
 							C189.7,653.3,185.9,657,181.3,657z"/>
 					</svg>
 				</div>
-				Mortice Locks<br>
-				2, 3 and 5 lever Standard
+				<strong>Mortice Locks</strong><br>
+				2, 3 and 5 lever British Standard
 			</div>
 			<div class="column is-one-fifth has-text-centered is-one-third-mobile">
 				<div class="picture column is-one-fifth has-text-centered">
@@ -162,7 +162,7 @@
 							488,556.5 "/>
 					</svg>
 				</div>
-				uPVC Doors<br>
+				<strong>uPVC Doors</strong><br>
 				Locks and Mechanisms
 			</div>
 			<div class="column is-one-fifth has-text-centered is-one-third-mobile">
@@ -181,7 +181,7 @@
 						<circle fill="#29CB71" cx="676.5" cy="498.5" r="21.5"/>
 					</svg>
 				</div>
-				ncfe Certificate<br>
+				<strong>ncfe Certificate</strong><br>
 				Level 4
 			</div>
 		</div>
@@ -194,34 +194,53 @@
 <section class="hero">
 <div class="hero-body">
 	<div class="container" id="additional">
-				<h1 class="m-tb-20">Additional 5 Day Course Information</h1>
-				<p>The Five Day Course is tailored specifically towards newcomers to the locksmith profession, and is one of the leading locksmith courses available within the industry. This widely respected and in-depth course encompasses the essential foundation skills required to operate as an effective locksmith; whether working within your own locksmith business or with Keytek™ Locksmiths as an approved sub-contractor within our ‘National Engineer Network’.</p>
-				<h2 class="m-tb-20">Course Breakdown…</h2>
-				<p class="m-tb-20">The course is run from Monday to Friday and you will be tutored and assessed on a wide range of locksmith techniques covering the identification, operation, opening techniques, fitting and upgrading of the most common lock types:</p>
-				<h2 class="m-tb-20">Examples as follows:</h2>
-				<p>
-					<ul>
-						<li>Cylinders – Euro, Oval and Rim</li>
-						<li>Backsets – Standard, British Standard and Specialist</li>
-						<li>Mortice Locks – 2 lever, 3 lever and 5 lever British Standard mortice dead locks and sash locks.</li>
-						<li>uPVC Doors – Locks and Mechanisms, including fault identification, replacement and temporary repairing.</li>
-					</ul>
-				</p>
-				<h2 class="m-tb-20">The course will also cover…</h2>
-				<p>
-					<ul>
-						<li>Additional Security Products</li>
-						<li>Key cutting</li>
-						<li>Basic vehicle opening and key retrieval</li>
-						<li>Skill Enhancement Sessions</li>
-					</ul>
-				</p>
-				<p class="m-tb-20">The Five Day Course has maximum class numbers set at 6 students to ensure students have the assistance and support they need to gain the NCFE Level 4 Accreditation.</p>
+				<?php the_field('secondary_text'); ?>
+				<!-- Google Maps Section -->
 				<div class="google-maps m-t-40">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2524.653878715499!2d-1.9521893485264126!3d50.74490817941667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4873a1514d6200c5%3A0xd94f650518a220a!2sKeytek+Locksmith+Training+Academy!5e0!3m2!1sen!2suk!4v1508423974149" width="400" height="70" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2524.653878715499!2d-1.9521893485264126!3d50.74490817941667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4873a1514d6200c5%3A0xd94f650518a220a!2sKeytek+Locksmith+Training+Academy!5e0!3m2!1sen!2suk!4v1508423974149" width="400" height="70" frameborder="0" style="border:0" allowfullscreen=""></iframe>
 				</div>
 	</div>
 </div>
+</section>
+
+<section id="recent-blogs" class="hero is-medium is-dark">
+	<div class="hero-body">
+    <div class="container">
+			<div class="columns">
+			<?php
+
+    // define query arguments
+    $args = array(
+        'posts_per_page' => 2, // your 'x' goes here
+        'nopaging' => true
+        // possibly more arguments here
+    );
+
+    // set up new query
+    $tyler_query = new WP_Query( $args );
+
+    // loop through found posts
+		while ( $tyler_query->have_posts() ) : $tyler_query->the_post();
+        echo '<section class="post column is-half">'.
+             '<h2><a href="'.
+             get_permalink().
+             '">'.
+             get_the_title().
+             '</a></h2><p>'.
+             get_the_excerpt().
+             '</p></section>';
+    endwhile;
+		?>
+	</div>
+</div>
+
+		<?
+    // reset post data
+    wp_reset_postdata();
+
+		?>
+		</div>
+	</div>
 </section>
 
 <!-- MailChimp Section -->
