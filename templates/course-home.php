@@ -80,8 +80,8 @@
 					<!-- Course 3 -->
 				  <div class="tile is-parent is-6">
 				    <article class="tile is-child notification is-dark col-3-border-t">
-				      <p class="title has-text-weight-bold">2 Day - Level 4</p>
-				      <p class="subtitle">‘Non Destructive Entry & uPVC’</p>
+				      <p class="title has-text-weight-bold">2 Day</p>
+				      <p class="subtitle">‘NDE & uPVC’</p>
 				      <div class="content">
 				        <p>
 									The Keytek™ non-destructive entry

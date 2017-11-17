@@ -60,7 +60,7 @@
 <!-- Editable Top Wordpress Content -->
 <section class="hero">
 <div class="hero-body">
-	<div class="container">
+	<div class="container secondaryPage-container">
 		<div id="primary" class="content-area">
 			<main id="main" class="site-main wrapper" role="main">
 				<?php while ( have_posts() ) : the_post(); ?>
@@ -193,7 +193,7 @@
 
 <section class="hero">
 <div class="hero-body">
-	<div class="container" id="additional">
+	<div class="container secondaryPage-container" id="additional">
 				<?php the_field('secondary_text'); ?>
 				<!-- Google Maps Section -->
 				<div class="google-maps m-t-40">

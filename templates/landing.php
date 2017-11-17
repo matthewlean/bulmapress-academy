@@ -24,10 +24,10 @@
 				<div class="columns" style="display: flex;justify-content: center;align-items: center;height: 100%;">
 				  <div class="column is-half">
 						<h1 class="title">
-							Locksmith Training
+							<?php the_field('main-title'); ?>
 				     </h1>
 			      <h2 class="subtitle">
-				       securing your future
+				       <?php the_field('subtitle'); ?>
 				     </h2>
 						 <a class="button is-dark is-large" href="/why-become-a-locksmith/">
 	                <span>
@@ -104,8 +104,8 @@
 			<!-- Course 3 -->
 		  <div class="column is-quater-desktop">
 		    <article class="tile is-child notification is-dark col-3-border-t">
-		      <p class="title has-text-weight-bold">2 Day - Level 4</p>
-		      <p class="subtitle">‘Non Destructive Entry & uPVC’</p>
+		      <p class="title has-text-weight-bold">2 Day</p>
+		      <p class="subtitle">‘NDE & uPVC’</p>
 		      <div class="content">
 		        <p>
 							The Keytek™ non-destructive entry
