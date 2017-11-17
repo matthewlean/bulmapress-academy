@@ -1,6 +1,6 @@
 <?php
 /**
- * Template name: ELC Page
+ * Template name: elc-page
  *
  *
  * @link https://codex.wordpress.org/Template_Hierarchy

@@ -1,6 +1,6 @@
 <?php
 /**
- * Template name: Meet-the-Team
+ * Template name: meet-the-team
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
