@@ -37,8 +37,6 @@
 								echo $image[0]; ?>">
 							</figure>
 							</a>
-							<!-- <?php bulmapress_home_link('nav-item is-brand'); ?>
-							<?php bulmapress_blog_description('nav-item is-muted'); ?> -->
 						</div>
 						<?php bulmapress_menu_toggle(); ?>
 						<?php bulmapress_navigation(); ?>
