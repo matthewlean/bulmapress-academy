@@ -41,7 +41,7 @@
 	             </a>
 				  </div>
 				  <div class="column is-half">
-						<!-- Right Column -->
+
 					</div>
 				</div>
 			</div>
