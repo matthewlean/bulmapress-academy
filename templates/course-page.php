@@ -30,13 +30,13 @@
 				        <?php the_field('subtitle'); ?>
 				     </h2>
 						 <p class="has-text-white has-text-weight-bold is-size-4 pad-bot-20">
-							 <?php the_field('header_paragraph'); ?>
+							 <?php the_field('header-paragraph'); ?>
 						</p>
 							<a class="button is-white is-inverted is-outlined is-large m-b-10" href="/">Apply Now</a>
 							<a class="button is-white is-inverted is-outlined is-large" href="/">Call for more info <br> <i class="fa fa-phone" aria-hidden="true"></i></a>
 				  </div>
 				  <div class="column is-half is-video-header">
-						<?php the_field('header_video'); ?>
+						<?php the_field('header-video'); ?>
 				  </div>
 				</div>
 			</div>

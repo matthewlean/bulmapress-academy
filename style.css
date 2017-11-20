@@ -36,7 +36,6 @@ body , html{
  .single .card{
    box-shadow: none;
  }
-
  /*Meet The Team*/
 .team-profile img{width: 160px;height: 160px;border-radius: 100px;margin: 0 auto;}
 
@@ -85,6 +84,15 @@ background: linear-gradient(to right, #0f6aea 0%,#00ff72 100%); /* W3C, IE10+, F
 
 /*Bulma Overwrite*/
 #course-tiles .column{display: flex !important;}
+
+/*Bulma New Content*/
+.is-size-1 {font-size: 3rem !important;}
+.is-size-2 {font-size: 2.5rem !important;}
+.is-size-3 {font-size: 2rem !important;}
+.is-size-4 {font-size: 1.5rem !important;}
+.is-size-5 {font-size: 1.25rem !important;}
+.is-size-6 {font-size: 1rem !important;}
+.is-size-7 {font-size: 0.75rem !important;}
 
 /* Tablet Helpers // ----------------------------------*/
 @media screen and (max-width: 1180px) {

@@ -23,7 +23,7 @@
 				<div class="container">
 						<h1 class="title">
 							<?php bulmapress_the_title('is-1', FALSE); ?>
-				     </h1>
+				    </h1>
 				</div>
 		  </div>
 			<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
@@ -64,7 +64,7 @@
 <div class="hero-body">
 	<div class="secondaryPage-container">
 		<div id="primary" class="content-area">
-			<main id="main" class="site-main wrapper" role="main">
+			<main id="main" class="site-main wrapper content" role="main">
 				<?php the_field('secondary_text'); ?>
 			</main><!-- #main -->
 		</div><!-- #primary -->
