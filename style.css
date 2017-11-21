@@ -84,6 +84,7 @@ background: linear-gradient(to right, #0f6aea 0%,#00ff72 100%); /* W3C, IE10+, F
 
 /*Bulma Overwrite*/
 #course-tiles .column{display: flex !important;}
+.fa{vertical-align: initial!important;}
 
 /*Bulma New Content*/
 .is-size-1 {font-size: 3rem !important;}
@@ -430,6 +431,9 @@ max-height: 200px;
 }
 .hero-foot .tabs.is-boxed a{
   padding: 10px 22px;
+}
+.nav-right .menu ul li{
+
 }
 /*Landing*/
 .landing .card .card-content {

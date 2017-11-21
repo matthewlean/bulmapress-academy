@@ -7,7 +7,6 @@
  * @package Bulmapress
  */
 
-
 require get_template_directory() . '/functions/bulmapress_navwalker.php';
 require get_template_directory() . '/functions/bulmapress_helpers.php';
 require get_template_directory() . '/functions/bulmapress_custom_query.php';
@@ -95,3 +94,14 @@ add_theme_support( 'mytheme_has_featured_posts', array(
 @ini_set( 'upload_max_size' , '64M' );
 @ini_set( 'post_max_size', '64M');
 @ini_set( 'max_execution_time', '300' );
+
+// New navbar
+function register_my_menus() {
+  register_nav_menus(
+    array(
+      'Primary' => __( 'main' ),
+      'Sub' => __( 'sub' )
+    )
+  );
+}
+add_action( 'init', 'register_my_menus' );
