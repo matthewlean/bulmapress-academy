@@ -65,72 +65,89 @@
 				<!-- Team Member -->
 				<div class="column is-one-thirds-tablet is-quater-desktop">
 					<div class="tile is-child has-text-centered">
-						<div class="team-profile"><img src="https://www.keytek.co.uk/wp-content/uploads/2015/12/Locksmith-working-on-a-nightlatch-compressor.jpg"</img></div>
-						<h2>Name Name</h2>
-						<p>Job Title</p>
+						<div class="team-profile"><img src="<?php the_field('team-member-1-image'); ?>" /></img></div>
+						<h2><strong><?php the_field('team-member-1-name'); ?></strong></h2>
+						<p><h2><?php the_field('team-member-1-title'); ?></h2></p>
 					</div>
 				</div>
 				<!-- Team Member -->
 				<div class="column is-one-thirds-tablet is-quater-desktop">
 					<div class="tile is-child has-text-centered">
-						<div class="team-profile"><img src="https://keytek.co.uk/wp-content/uploads/2015/12/Our-locksmiths-offer-a-wide-range-of-services-compressor.jpg"</img></div>
-						<h2>Name Name</h2>
-						<p>Job Title</p>
+						<div class="team-profile"><img src="<?php the_field('team-member-2-image'); ?>" /></img></div>
+						<h2><strong><?php the_field('team-member-2-name'); ?></strong></h2>
+						<p><h2><?php the_field('team-member-2-title'); ?></h2></p>
 					</div>
 				</div>
 			</div>
 			<!-- Line Two -->
-			<div class="columns m-b-40">
+			<div class="container">
+			  <div class="notification is-center">
+			    <h1 class="title"><strong>Trainers</strong></h1>
+			  </div>
+			</div>
+			<div class="columns m-b-40 is-narrow">
 				<!-- Team Member -->
 				<div class="column is-one-thirds-tablet is-quater-desktop">
 					<div class="tile is-child has-text-centered">
-						<div class="team-profile"><img src="https://3.basecamp-static.com/3443034/people/BAhpAyjHyA==--5c9f8a2fcc3818354fdbe94f412f0a8bec50bf33/avatar-130-x2"</img></div>
-						<h2>Becki Hooper</h2>
-						<p>Marketing Team Leader</p>
+						<div class="team-profile"><img src="<?php the_field('team-member-3-image'); ?>" /></img></div>
+						<h2><strong><?php the_field('team-member-3-name'); ?></strong></h2>
+						<p><h2><?php the_field('team-member-3-title'); ?></h2></p>
 					</div>
 				</div>
 				<!-- Team Member -->
 				<div class="column is-one-thirds-tablet is-quater-desktop">
 					<div class="tile is-child has-text-centered">
-						<div class="team-profile"><img src="https://3.basecamp-static.com/3443034/people/BAhpAw8ezw==--c10311fe5cdca23085b45366cfca3aeb3c0f0a55/avatar-130-x2"</img></div>
-						<h2>Matthew Lean</h2>
-						<p>Marketing Executive</p>
-					</div>
-				</div>
-				<!-- Team Member -->
-				<div class="column is-one-thirds-tablet is-quater-desktop">
-					<div class="tile is-child has-text-centered">
-						<div class="team-profile"><img src="https://3.basecamp-static.com/3443034/people/BAhpAyfHyA==--a059e02c61cb7e1fb9f5630da27aaec96f7a0a91/avatar-130-x2"</img></div>
-						<h2>Kim Sanders</h2>
-						<p>Man Kim</p>
+						<div class="team-profile"><img src="<?php the_field('team-member-4-image'); ?>" /></img></div>
+						<h2><strong><?php the_field('team-member-4-name'); ?></strong></h2>
+						<p><h2><?php the_field('team-member-4-title'); ?></h2></p>
 					</div>
 				</div>
 			</div>
-
 			<!-- Line Three -->
+			<div class="container">
+			  <div class="notification is-center">
+			    <h1 class="title"><strong>Support Team</strong></h1>
+			  </div>
+			</div>
 			<div class="columns m-b-40">
 				<!-- Team Member -->
 				<div class="column is-one-thirds-tablet is-quater-desktop">
 					<div class="tile is-child has-text-centered">
-						<div class="team-profile"><img src="https://3.basecamp-static.com/3443034/people/BAhpA7rjTw==--6e591811787c483bff1e87a64cbe09f4778d7186/avatar-130-x2"</img></div>
-						<h2>Tom Light</h2>
-						<p>SEO Specialist</p>
+						<div class="team-profile"><img src="<?php the_field('team-member-5-image'); ?>" /></img></div>
+						<h2><strong><?php the_field('team-member-5-name'); ?></strong></h2>
+						<p><h2><?php the_field('team-member-5-title'); ?></h2></p>
 					</div>
 				</div>
 				<!-- Team Member -->
 				<div class="column is-one-thirds-tablet is-quater-desktop">
 					<div class="tile is-child has-text-centered">
-						<div class="team-profile"><img src="https://3.basecamp-static.com/3443034/people/BAhpA1VmSQ==--c2b137f6a34737720908e35960cfbfde61a511d5/avatar-130-x2"</img></div>
-						<h2>Wez Maynerd</h2>
-						<p>Head of Creative</p>
+						<div class="team-profile"><img src="<?php the_field('team-member-6-image'); ?>" /></img></div>
+						<h2><strong><?php the_field('team-member-6-name'); ?></strong></h2>
+						<p><h2><?php the_field('team-member-6-title'); ?></h2></p>
 					</div>
 				</div>
 				<!-- Team Member -->
 				<div class="column is-one-thirds-tablet is-quater-desktop">
 					<div class="tile is-child has-text-centered">
-						<div class="team-profile"><img src="https://3.basecamp-static.com/3443034/people/BAhpAyNySQ==--8f24852350ef207862690c0a3c0c5ff4edcdf882/avatar-130-x2"</img></div>
-						<h2>Sam Osborne</h2>
-						<p>Technical SEO Specialist</p>
+						<div class="team-profile"><img src="<?php the_field('team-member-7-image'); ?>" /></img></div>
+						<h2><strong><?php the_field('team-member-7-name'); ?></strong></h2>
+						<p><h2><?php the_field('team-member-7-title'); ?></h2></p>
+					</div>
+				</div>
+			</div>
+			<!-- Line Four -->
+			<div class="container">
+				<div class="notification is-center">
+					<h1 class="title"><strong>Recruitment</strong></h1>
+				</div>
+			</div>
+			<div class="columns m-b-40 is-narrow">
+				<!-- Team Member -->
+				<div class="column is-one-thirds-tablet is-quater-desktop">
+					<div class="tile is-child has-text-centered">
+						<div class="team-profile"><img src="<?php the_field('team-member-8-image'); ?>" /></img></div>
+						<h2><strong><?php the_field('team-member-8-name'); ?></strong></h2>
+						<p><h2><?php the_field('team-member-8-title'); ?></h2></p>
 					</div>
 				</div>
 			</div>
