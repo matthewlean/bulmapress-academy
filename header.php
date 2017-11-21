@@ -39,8 +39,6 @@
 							</a>
 						</div>
 						<div class="nav-right">
-						<?php bulmapress_menu_toggle(); ?>
-						<?php bulmapress_navigation(); ?>
 						<?php wp_nav_menu( array( 'theme_location' => 'Primary', 'menu_class' => 'new-nav' ) );?>
 					</div>
 					</nav><!-- #site-navigation -->

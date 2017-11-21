@@ -86,6 +86,10 @@ background: linear-gradient(to right, #0f6aea 0%,#00ff72 100%); /* W3C, IE10+, F
 #course-tiles .column{display: flex !important;}
 .fa{vertical-align: initial!important;}
 
+/*Mega Sub Menu Edit*/
+ul.mega-sub-menu{width: max-content!important;right:0!important;}
+ul.mega-menu-item{width: -webkit-fill-available!important;}
+
 /*Bulma New Content*/
 .is-size-1 {font-size: 3rem !important;}
 .is-size-2 {font-size: 2.5rem !important;}
