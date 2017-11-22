@@ -41,13 +41,13 @@ body , html{
 
 /* Misc Sizes // ----------------------------------*/
 .h-100{height: 100px;}
-
+/*Margin and Padding*/
 .m-t-10{margin-top: 10px!important}
 .m-t-40{margin-top: 40px!important}
 .m-b-10{margin-bottom: 10px!important}
 .m-b-20{margin-bottom: 20px!important}
-.m-tb-20{margin: 20px 0!important}
 .m-b-40{margin-bottom: 40px!important}
+.m-tb-20{margin: 20px 0!important}
 .p-l-10{padding-left:10px!important}
 
 .is-narrow{max-width: 750px;}
@@ -77,10 +77,12 @@ background: linear-gradient(to right, #0f6aea 0%,#00ff72 100%); /* W3C, IE10+, F
 
 /* Helpers // ----------------------------------*/
 .has-text-weight-bold{font-weight: 600!important;}
-.green-highlighted-text{background-color: #6eb43f;padding: 3px 7px;width: fit-content;}
-.has-text-white{color: #fff;}
-.is-vcentered {-webkit-box-align: center;-ms-flex-align: center;align-items: center;}
-.is-narrow{max-width: 720px;margin:0 auto;}
+.green-highlighted-text{padding: 4px 8px;
+    width: fit-content;
+    margin: 0 0 15px 0;
+    border: solid 7px #c80028;
+    float: right;
+}
 
 /*Bulma Overwrite*/
 #course-tiles .column{display: flex !important;}
@@ -111,6 +113,8 @@ ul.mega-menu-item{width: -webkit-fill-available!important;}
 .quote-container {height: inherit !important;}
 #the-team .columns{display: flex;}
 .team-profile img{width: 100px;height: 100px;}
+.main-header .title {font-size: 2em;}
+.main-header .subtitle {font-size: 1.4em;}
 
 /*Hide for mobile*/
 .hide-mobile{display: none;}
@@ -123,6 +127,8 @@ ul.mega-menu-item{width: -webkit-fill-available!important;}
 #the-team .columns{display: block;}
 #quote-section .hero-body{height:275px;}
 #quote-section .title{font-size: 16px!important;}
+.main-header .title {font-size: 2em;}
+.main-header .subtitle {font-size: 1.4em;}
 }
 
 /*Quote Section*/
@@ -457,6 +463,7 @@ max-height: 200px;
     border-color: #6eb43f;
     border-width: 1px;
     color: #6eb43f;
+    display: block;
 }
 .button.is-green.is-outlined:hover, .button.is-green.is-outlined:focus {
     background-color: #6eb43f;
@@ -499,6 +506,7 @@ max-height: 200px;
   padding: 15px 30px;
   vertical-align: inherit;
   border-bottom: #f2f2f2 solid 1px;
+  font-size: 1.2em;
 }
 .comparison img{
   max-width: 200px !important;

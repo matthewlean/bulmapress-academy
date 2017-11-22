@@ -70,15 +70,17 @@
 						<p><h2><?php the_field('team-member-1-title'); ?></h2></p>
 					</div>
 				</div>
+
 				<!-- Team Member -->
 				<div class="column is-one-thirds-tablet is-quater-desktop">
 					<div class="tile is-child has-text-centered">
-						<div class="team-profile"><img src="<?php the_field('team-member-2-image'); ?>" /></img></div>
+							<div class="team-profile"><img src="<?php the_field('team-member-2-image'); ?>" /></img></div>
+						<!-- Button for team member 2 -->
 						<h2><strong><?php the_field('team-member-2-name'); ?></strong></h2>
 						<p><h2><?php the_field('team-member-2-title'); ?></h2></p>
 					</div>
 				</div>
-			</div>
+		</div>
 			<!-- Line Two -->
 			<div class="container">
 			  <div class="notification is-center">
@@ -156,6 +158,7 @@
 	</div>
 </section>
 
+<!-- Secondary Text Section -->
 <section class="hero">
 <div class="hero-body">
 	<div class="secondaryPage-container">
