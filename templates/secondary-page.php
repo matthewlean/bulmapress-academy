@@ -48,7 +48,6 @@
 			<main id="main" class="site-main wrapper" role="main">
 				<?php while ( have_posts() ) : the_post(); ?>
 					<?php get_template_part( 'template-parts/content-secondaryPage' ); ?>
-					<?php bulmapress_get_comments(); ?>
 				<?php endwhile; ?>
 			</main><!-- #main -->
 		</div><!-- #primary -->

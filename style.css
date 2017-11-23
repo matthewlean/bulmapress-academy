@@ -62,6 +62,7 @@ body , html{
 
 /* Colours // ----------------------------------*/
 .has-text-grey{color: hsl(0, 0%, 48%)!important;}
+.has-text-white{color: #fff!important}
 .is-purple{background-color: #60354f}
 .is-gradient{background: -moz-linear-gradient(left, #0f6aea 0%, #00ff72 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(left, #0f6aea 0%,#00ff72 100%); /* Chrome10-25,Safari5.1-6 */
@@ -77,12 +78,7 @@ background: linear-gradient(to right, #0f6aea 0%,#00ff72 100%); /* W3C, IE10+, F
 
 /* Helpers // ----------------------------------*/
 .has-text-weight-bold{font-weight: 600!important;}
-.green-highlighted-text{padding: 4px 8px;
-    width: fit-content;
-    margin: 0 0 15px 0;
-    border: solid 7px #c80028;
-    float: right;
-}
+.green-highlighted-text{padding: 4px 8px;width: fit-content;margin: 0 0 15px 0;border: solid 7px #c80028;float: right;}
 
 /*Bulma Overwrite*/
 #course-tiles .column{display: flex !important;}
@@ -100,6 +96,9 @@ ul.mega-menu-item{width: -webkit-fill-available!important;}
 .is-size-5 {font-size: 1.25rem !important;}
 .is-size-6 {font-size: 1rem !important;}
 .is-size-7 {font-size: 0.75rem !important;}
+
+/*Svg logo*/
+.keytek-ncfe-logos path{fill:#77ad1a;}
 
 /* Tablet Helpers // ----------------------------------*/
 @media screen and (max-width: 1180px) {

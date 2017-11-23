@@ -9,7 +9,7 @@
 ?>
 
 <!-- Custom Quote Section -->
-<section id="custom-hero" style="background-image: url(<?php the_field('image');?>); background-size: cover;"; class="hero is-primary is-medium">
+<section id="custom-hero" style="background-image: url(<?php the_field('hero-image');?>); background-size: cover;"; class="hero is-primary is-medium">
   <div class="hero-body">
     <div class="container">
       <h1 class="title has-text-weight-bold is-size-1">
