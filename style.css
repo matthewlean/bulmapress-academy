@@ -97,9 +97,6 @@ ul.mega-menu-item{width: -webkit-fill-available!important;}
 .is-size-6 {font-size: 1rem !important;}
 .is-size-7 {font-size: 0.75rem !important;}
 
-/*Svg logo*/
-.keytek-ncfe-logos path{fill:#77ad1a;}
-
 /* Tablet Helpers // ----------------------------------*/
 @media screen and (max-width: 1180px) {
 #who-is-this-guide-for .columns{overflow-x: scroll;display: flex;}
