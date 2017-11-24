@@ -8,6 +8,7 @@
  */
 ?>
 <!-- Quote Section -->
+<a href="/keytek-locksmith-training-course-testimonials/">
 <section id="quote-section" class="hero is-medium has-bg-img quote">
 	<div class="hero-body">
 		<div class="container has-text-centered w-850-center quote-container">
@@ -28,6 +29,7 @@
 		</div>
 	</div>
 </section>
+</a>
 
 <!-- Quote Section Script -->
 <script >
