@@ -143,7 +143,7 @@
 									Being able to open a door quickly
 									and without causing any damage
 									is an essential locksmith skill, but
-									it can be the confidence in the tools ..
+									it can be the lack of confidence in the tools ..
 								</p>
 								<p class="price">£295 + VAT</p>
 								<a class="button is-green is-inverted is-outlined is-medium" href="keytek-1-day-non-destructive-entry-course">View</a>

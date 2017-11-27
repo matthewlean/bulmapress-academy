@@ -40,7 +40,7 @@
 		bulmapress_custom_query(array(
 			'post_type' => 'post',
 			'post_class'	=> 'courses',
-			'section_title' => 'Recent Posts',
+			'section_title' => 'Locksmith News',
 			'section_columns' => 3,
 			'section_max_posts' => 12,
 			)

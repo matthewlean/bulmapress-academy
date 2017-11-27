@@ -30,23 +30,38 @@
 				       <?php the_field('subtitle'); ?>
 				     </h2>
 						 <div>
-						 <a class="button is-dark is-large m-b-10" href="/why-become-a-locksmith/">
+						 <!-- Read More Button -->
+						 <a class="button is-dark is-large" href="/why-become-a-locksmith/">
 	                <span>
 	                  <strong>Read More</strong>
 	                </span>
 	            </a>
+							<!-- Call Now Button -->
 							<a class="button is-info is-large" href="tel:01202711195">
 	                 <span>
 	                   <strong>Call Now <i class="fa fa-phone" aria-hidden="true"></i></strong>
 	                 </span>
 	             </a>
 						 </div>
+						 <!-- Phone Number -->
 						 <div>
 							 <a class="button is-green-fill is-large m-t-10" href="tel:01202711195">
  	                 <span>
  	                   <strong><i class="fa fa-phone p-r-10" aria-hidden="true"></i>01202 711195</strong>
  	                 </span>
  	             </a>
+						 </div>
+
+						 <div class="m-t-10">
+							 <a class="button is-light is-medium" href="https://www.facebook.com/locksmiths.training/">
+								<i class="fa fa-facebook fa-2x is-facebook" aria-hidden="true"></i>
+							 </a>
+							 <a class="button is-light is-medium" href="https://twitter.com/keytek_academy">
+								 <i class="fa fa-twitter fa-2x is-twitter" aria-hidden="true"></i>
+							 </a>
+							 <a class="button is-light is-medium" href="https://www.instagram.com/keytek_locksmiths/">
+								<i class="fa fa-instagram fa-2x is-instagram" aria-hidden="true"></i>
+							 </a>
 						 </div>
 
 				  </div>
@@ -192,7 +207,7 @@
 							Being able to open a door quickly
 							and without causing any damage
 							is an essential locksmith skill, but
-							it can be the confidence in the tools ..
+							it can be the lack of confidence in the tools ..
 						</p>
 						<a class="button is-green is-inverted is-outlined is-medium" href="keytek-1-day-non-destructive-entry-course">View</a>
 					</div>

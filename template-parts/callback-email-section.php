@@ -24,7 +24,7 @@
     <div class="column is-center">
 			<div class="field">
 				<p class="control has-icons-left has-icons-right has-addons" style="height: 48px;">
-					<input class="input is-medium" type="text" style="height: 48px;font-size: 20px;" placeholder="Email Address"><button style="height: 48px;font-size: 20px;" class="button is-white is-inverted is-outlined is-medium">Submit</button>
+					<input class="input is-medium" type="text" style="height: 48px;font-size: 16px;" placeholder="Email Address"><button style="height: 48px;font-size: 20px;" class="button is-white is-inverted is-outlined is-medium">Submit</button>
 			    <span class="icon is-small-medium is-left is-center">
 			      <i class="fa fa-envelope"></i>
 			    </span>

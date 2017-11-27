@@ -94,18 +94,7 @@ function bulmapress_custom_query($args = array())
 					endwhile;
 				wp_reset_postdata();
 			$output.= '</div>';
-			$output.= '<div class="spacer"></div>';
-			$output.= '<div class="level is-h-centered">';
-				$output.= '<p class="text">';
-					if ( $post_type != 'page' ) {
-						$buttom_classes = 'button is-info is-medium is-outlined';
-						$button_href = get_post_type_archive_link( $post_type );
-						$button_text = $section_button_text;
-						$output.= '<a class="'.$buttom_classes.'" href="'.$button_href.'">'.$button_text.'</a>';
-					}
-				$output.= '</p>';
-			$output.= '</div>';
-		$output.= '</div>';
+			
 	$output.= '</div>';
 	}
 	$output.= '</div>';
