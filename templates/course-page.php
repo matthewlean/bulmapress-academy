@@ -203,44 +203,26 @@
 </div>
 </section>
 
+<!-- Blog Section -->
 <section id="recent-blogs" class="hero is-medium is-dark">
-	<div class="hero-body">
-    <div class="container">
-			<div class="columns">
-			<?php
-
-    // define query arguments
-    $args = array(
-        'posts_per_page' => 2, // your 'x' goes here
-        'nopaging' => true
-        // possibly more arguments here
-    );
-
-    // set up new query
-    $tyler_query = new WP_Query( $args );
-
-    // loop through found posts
-		while ( $tyler_query->have_posts() ) : $tyler_query->the_post();
-        echo '<section class="post column is-half">'.
-             '<h2><a href="'.
-             get_permalink().
-             '">'.
-             get_the_title().
-             '</a></h2><p>'.
-             get_the_excerpt().
-             '</p></section>';
-    endwhile;
-		?>
-	</div>
-</div>
-
-		<?
-    // reset post data
-    wp_reset_postdata();
-
-		?>
-		</div>
-	</div>
+	<?php
+	$args = array( 'numberposts' => 1 );
+	$lastposts = get_posts( $args );
+	foreach($lastposts as $post) : setup_postdata($post); ?>
+	<section id="custom-hero" style="background-image: url(<?php the_post_thumbnail_url();?>); background-size: cover;"; class="hero is-primary is-medium">
+	  <div class="hero-body">
+			<a href="<?php the_permalink(); ?>">
+	    <div class="container is-green-fill p-10">
+					<!-- <h1 class="title has-text-weight-bold is-size-5"> Recent Blog Post </h1> -->
+		      <h1 class="title has-text-weight-bold is-size-3">
+		        <?php the_title(); ?>
+		      </h1>
+					<h1 class="title has-text-weight-bold is-size-6"><?php the_date(); ?></h1>
+	    </div>
+			</a>
+	  </div>
+	</section>
+	<?php endforeach; ?>
 </section>
 
 <!-- MailChimp Section -->

@@ -41,9 +41,8 @@
 			'post_type' => 'post',
 			'post_class'	=> 'courses',
 			'section_title' => 'Recent Posts',
-			'section_columns' => 5,
-			'section_max_posts' => 10,
-			'section_button_text' => 'See all Posts'
+			'section_columns' => 3,
+			'section_max_posts' => 12,
 			)
 		);
 

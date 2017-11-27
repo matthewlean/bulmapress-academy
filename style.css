@@ -49,6 +49,9 @@ body , html{
 .m-b-40{margin-bottom: 40px!important}
 .m-tb-20{margin: 20px 0!important}
 .p-l-10{padding-left:10px!important}
+.p-r-10{padding-right:10px!important}
+
+.p-10{padding:10px;}
 
 .is-narrow{max-width: 750px;}
 .size-200-200{width: 20%;height: initial;}
@@ -438,8 +441,12 @@ max-height: 200px;
 .hero-foot .tabs.is-boxed a{
   padding: 10px 22px;
 }
-.nav-right .menu ul li{
-
+.nav-button{
+  display: table
+}
+.nav-button a{
+  display: table-cell;
+  vertical-align: middle;
 }
 /*Landing*/
 .landing .card .card-content {

@@ -17,6 +17,7 @@
 		<div class="hero-body has-text-centered">
 			<div class="site-info">
 				<?php bulmapress_copyright_link(); ?>
+				<p><a href="http://new.locksmiths-training.co.uk/privacy/">Privacy</a>-<a href="http://new.locksmiths-training.co.uk/privacy/">Sitemap</a></p>
 			</div><!-- .site-info -->
 		</div>
 	</div><!-- .container -->

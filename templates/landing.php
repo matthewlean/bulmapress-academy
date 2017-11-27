@@ -29,6 +29,7 @@
 			      <h2 class="subtitle">
 				       <?php the_field('subtitle'); ?>
 				     </h2>
+						 <div>
 						 <a class="button is-dark is-large m-b-10" href="/why-become-a-locksmith/">
 	                <span>
 	                  <strong>Read More</strong>
@@ -39,6 +40,15 @@
 	                   <strong>Call Now <i class="fa fa-phone" aria-hidden="true"></i></strong>
 	                 </span>
 	             </a>
+						 </div>
+						 <div>
+							 <a class="button is-green-fill is-large m-t-10" href="tel:01202711195">
+ 	                 <span>
+ 	                   <strong><i class="fa fa-phone p-r-10" aria-hidden="true"></i>01202 711195</strong>
+ 	                 </span>
+ 	             </a>
+						 </div>
+
 				  </div>
 				  <div class="column is-half">
 						<!-- Column Right -->

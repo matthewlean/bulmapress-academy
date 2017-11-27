@@ -69,7 +69,7 @@ add_theme_support( 'post-thumbnails' );
 
 // Continue Reading
 function tyler_excerpt_more( $more ) {
-    return 'Read the whole post &gt;&gt;'; // again, change to your liking
+    return '...'; // again, change to your liking
 }
 add_filter( 'excerpt_more', 'tyler_excerpt_more' );
 
@@ -84,11 +84,7 @@ add_action( 'wp_head', 'add_stylesheet_to_head' );
 add_theme_support( 'custom-logo' );
 
 // Featured content
-add_theme_support( 'mytheme_has_featured_posts', array(
-    'filter'     => 'featured',
-    'max_posts'  => 2,
-    'post_types' => array( 'page' ),
-) );
+
 
 // Upload Size Increase
 @ini_set( 'upload_max_size' , '64M' );

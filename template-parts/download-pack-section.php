@@ -15,13 +15,13 @@
         Interested in becoming a locksmith?
       </h1>
 			<p class="field has-text-centered">
-		  <a class="button is-info is-outlined is-large">
+		  <a class="button is-info is-outlined is-medium">
 		    <span class="icon">
 		      <i class="fa fa-sign-in"></i>
 		    </span>
 		    <span>Sign Up</span>
 		  </a>
-		  <a id="download-pack-button" class="button is-success is-outlined is-large">
+		  <a id="download-pack-button" class="button is-success is-outlined is-medium">
 		    <span class="icon">
 		      <i class="fa fa-download"></i>
 		    </span>
