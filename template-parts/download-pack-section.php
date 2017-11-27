@@ -19,7 +19,7 @@
 		    <span class="icon">
 		      <i class="fa fa-sign-in"></i>
 		    </span>
-		    <span>Sign Up</span>
+		    <span>Read More</span>
 		  </a>
 		  <a id="download-pack-button" class="button is-success is-outlined is-medium">
 		    <span class="icon">

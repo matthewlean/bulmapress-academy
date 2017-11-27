@@ -32,8 +32,8 @@
 						 <p class="has-text-white has-text-weight-bold is-size-4 pad-bot-20">
 							 <?php the_field('header-paragraph'); ?>
 						</p>
-							<a class="button is-white is-inverted is-outlined is-large m-b-10" href="/">Apply Now</a>
-							<a class="button is-white is-inverted is-outlined is-large" href="/">Call for more info <br> <i class="fa fa-phone" aria-hidden="true"></i></a>
+							<a class="button is-white is-inverted is-outlined is-large m-b-10" href="/contact-us">Apply Now</a>
+							<a class="button is-white is-inverted is-outlined is-large" href="tel:01202711195">Call for more info <br> <i class="fa fa-phone" aria-hidden="true"></i></a>
 				  </div>
 				  <div class="column is-half is-video-header">
 						<?php the_field('header-video'); ?>
@@ -212,7 +212,7 @@
 	<section id="custom-hero" style="background-image: url(<?php the_post_thumbnail_url();?>); background-size: cover;"; class="hero is-primary is-medium">
 	  <div class="hero-body">
 			<a href="<?php the_permalink(); ?>">
-	    <div class="container is-green-fill p-10">
+	    <div class="container notification is-dark p-10">
 					<!-- <h1 class="title has-text-weight-bold is-size-5"> Recent Blog Post </h1> -->
 		      <h1 class="title has-text-weight-bold is-size-3">
 		        <?php the_title(); ?>
