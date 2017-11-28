@@ -61,9 +61,9 @@
 	<div class="hero-body">
 		<div class="container">
 			<!-- Line One -->
-			<div class="columns m-b-40 is-narrow">
+			<div class="columns m-b-40 is-narrow is-center">
 				<!-- Team Member -->
-				<div class="column is-one-thirds-tablet is-quater-desktop">
+				<div class="column is-half-tablet is-half-desktop">
 					<div class="tile is-child has-text-centered">
 						<div class="team-profile"><img src="<?php the_field('team-member-1-image'); ?>" /></img></div>
 						<h2><strong><?php the_field('team-member-1-name'); ?></strong></h2>
@@ -72,7 +72,7 @@
 				</div>
 
 				<!-- Team Member -->
-				<div class="column is-one-thirds-tablet is-quater-desktop">
+				<div class="column is-half-tablet is-half-desktop">
 					<div class="tile is-child has-text-centered">
 							<div class="team-profile"><img src="<?php the_field('team-member-2-image'); ?>" /></img></div>
 						<!-- Button for team member 2 -->
@@ -87,9 +87,9 @@
 			    <h1 class="title"><strong>Trainers</strong></h1>
 			  </div>
 			</div>
-			<div class="columns m-b-40 is-narrow">
+			<div class="columns m-b-40 is-narrow is-center">
 				<!-- Team Member -->
-				<div class="column is-one-thirds-tablet is-quater-desktop">
+				<div class="column is-half-tablet is-half-desktop">
 					<div class="tile is-child has-text-centered">
 						<div class="team-profile"><img src="<?php the_field('team-member-3-image'); ?>" /></img></div>
 						<h2><strong><?php the_field('team-member-3-name'); ?></strong></h2>
@@ -97,7 +97,7 @@
 					</div>
 				</div>
 				<!-- Team Member -->
-				<div class="column is-one-thirds-tablet is-quater-desktop">
+				<div class="column is-half-tablet is-half-desktop">
 					<div class="tile is-child has-text-centered">
 						<div class="team-profile"><img src="<?php the_field('team-member-4-image'); ?>" /></img></div>
 						<h2><strong><?php the_field('team-member-4-name'); ?></strong></h2>
@@ -111,7 +111,7 @@
 			    <h1 class="title"><strong>Support Team</strong></h1>
 			  </div>
 			</div>
-			<div class="columns m-b-40">
+			<div class="columns m-b-40 is-center">
 				<!-- Team Member -->
 				<div class="column is-one-thirds-tablet is-quater-desktop">
 					<div class="tile is-child has-text-centered">
@@ -143,9 +143,9 @@
 					<h1 class="title"><strong>Recruitment</strong></h1>
 				</div>
 			</div>
-			<div class="columns m-b-40 is-narrow">
+			<div class="columns m-b-40 is-narrow is-center">
 				<!-- Team Member -->
-				<div class="column is-one-thirds-tablet is-quater-desktop">
+				<div class="column">
 					<div class="tile is-child has-text-centered">
 						<div class="team-profile"><img src="<?php the_field('team-member-8-image'); ?>" /></img></div>
 						<h2><strong><?php the_field('team-member-8-name'); ?></strong></h2>
@@ -157,6 +157,9 @@
 	 	</div>
 	</div>
 </section>
+
+<!-- Custom hero -->
+<?php get_template_part('template-parts/custom-hero'); ?>
 
 <!-- Secondary Text Section -->
 <section class="hero">

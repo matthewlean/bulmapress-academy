@@ -171,11 +171,11 @@
 					<p class="subtitle">‘Brush up Course’</p>
 					<div class="content">
 						<p>
-							The Keytek™ non-destructive
-							entry and uPVC course covers
-							all aspects of uPVC and wooden
-							door lock identification and the
-							 correct tools to use, as well as...
+							The ‘Keytek™ Fitment Course’ is aimed
+							at locksmiths who perhaps wish to brush
+							up on their fitting techniques.
+							This course covers all aspects of lock fitting
+							and encompasses a wide variety of locks.
 						</p>
 					</div>
 					<a class="button is-green is-inverted is-outlined is-medium" href="keytek-1-day-fitment-course">View</a>
@@ -336,17 +336,12 @@
 <!-- Custom hero -->
 <?php get_template_part('template-parts/custom-hero'); ?>
 
-<!-- Secondary Text Section -->
+
+<!-- Secondary Content -->
 <section class="hero">
 <div class="hero-body">
-	<div class="secondaryPage-container">
-		<div id="primary" class="content-area">
-			<main id="main" class="site-main wrapper post has-text-centered" role="main">
-				<p class="has-text-centered">
-					<?php the_field('secondary_text'); ?>
-				</p>
-			</main><!-- #main -->
-		</div><!-- #primary -->
+	<div class="container secondaryPage-container" id="additional">
+				<?php the_field('secondary_text'); ?>
 	</div>
 </div>
 </section>

@@ -51,7 +51,6 @@
 									of locksmith techniques, but on successful completion
 									you will also be awarded a Level 4 NCFE Certificate in Locksmithing…
 								</p>
-								<p class="price">£2649 + VAT</p>
 							</div>
 							<a class="button is-green is-inverted is-outlined is-medium" href="keytek-8-day-level-4-experience-package/">View</a>
 						</article>
@@ -59,7 +58,7 @@
 					<!-- Course 2 -->
 					<div class="tile is-parent is-6">
 				    <article class="tile is-child notification is-dark col-2-border-t">
-							<p class="small green-highlighted-text">TOP COURSE</p>
+							<!-- <p class="small green-highlighted-text">TOP COURSE</p> -->
 				      <p class="title has-text-weight-bold">5 Day - Level 4</p>
 				      <p class="subtitle">‘The Complate Package’</p>
 				      <div class="content">
@@ -70,7 +69,6 @@
 									and practical application of
 									locksmith techniques..
 								</p>
-								<p class="price">£2149 + VAT</p>
 				      </div>
 							<a class="button is-green is-inverted is-outlined is-medium" href="keytek-5-day-level-4-accredited-course">View</a>
 				    </article>
@@ -90,7 +88,6 @@
 									identification and the correct tools
 									to use...
 								</p>
-								<p class="price">£495 + VAT</p>
 				      </div>
 							<a class="button is-green is-inverted is-outlined is-medium" href="keytek-two-day-non-destructive-entry-and-upvc-course">View</a>
 				    </article>
@@ -108,7 +105,6 @@
 									door lock identification and the
 									 correct tools to use, as well as...
 								</p>
-								<p class="price">£399 + VAT</p>
 							</div>
 							<a class="button is-green is-inverted is-outlined is-medium" href="keytek-1-day-non-destructive-entry-course">View</a>
 						</article>
@@ -128,7 +124,6 @@
 									and practical application of
 									locksmith techniques..
 								</p>
-								<p class="price">£299 + VAT</p>
 							</div>
 							<a class="button is-green is-inverted is-outlined is-medium" href="keytek-1-day-upvc-course">View</a>
 						</article>
@@ -145,7 +140,6 @@
 									is an essential locksmith skill, but
 									it can be the lack of confidence in the tools ..
 								</p>
-								<p class="price">£295 + VAT</p>
 								<a class="button is-green is-inverted is-outlined is-medium" href="keytek-1-day-non-destructive-entry-course">View</a>
 							</div>
 						</article>
