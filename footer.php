@@ -17,9 +17,10 @@
 		<div class="hero-body has-text-centered">
 			<div class="site-info">
 				<?php bulmapress_copyright_link(); ?>
-				<p><a href="http://new.locksmiths-training.co.uk/privacy/">Privacy</a>-<a href="http://new.locksmiths-training.co.uk/privacy/">Sitemap</a></p>
-				<!-- Javascript -->
-				<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+				<p><a href="http://new.locksmiths-training.co.uk/privacy/">Privacy</a>-
+					<a href="http://new.locksmiths-training.co.uk/site-map/">Sitemap</a>-
+					<a href="http://new.locksmiths-training.co.uk/frequently-asked-questions/">FAQ</a>
+				</p>
 			</div><!-- .site-info -->
 		</div>
 	</div><!-- .container -->

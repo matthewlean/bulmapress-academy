@@ -21,15 +21,18 @@
     background-repeat: no-repeat;" />
 		  <div class="hero-body">
 				<div class="container">
-						<h1 class="title">
-							<?php bulmapress_the_title('is-1', FALSE); ?>
-				     </h1>
-				</div>
+					<div class="columns">
+					  <div style="display:flex;justify-content:center;align-items:center;" class="column is-half">
+								<?php bulmapress_the_title('is-1', FALSE); ?>
+					  </div>
+					  <div class="column is-half post">
+							<div style="color:#fff;"><?php the_field('header-right-section'); ?></div>
+					  </div>
+					</div>
 		  </div>
-			<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-				<polygon fill="white" points="0,100 100,0 100,100"/>
-			</svg> -->
 		</section>
+
+		<!-- Subnav -->
 		<div class="hero-foot">
     <div class="container">
     	<nav class="tabs is-boxed" role="navigation">

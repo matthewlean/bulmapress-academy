@@ -167,7 +167,7 @@
 <!-- Blog Section -->
 <section id="recent-blogs" class="hero is-medium is-dark">
 	<?php
-	$args = array( 'numberposts' => 1 );
+	$args = array( 'numberposts' => 2 );
 	$lastposts = get_posts( $args );
 	foreach($lastposts as $post) : setup_postdata($post); ?>
 	<section id="custom-hero" style="background-image: url(<?php the_post_thumbnail_url();?>); background-size: cover;"; class="hero is-primary is-medium">

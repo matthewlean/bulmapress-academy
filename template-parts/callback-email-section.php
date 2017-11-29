@@ -18,7 +18,7 @@
       <!-- Begin MailChimp Signup Form -->
       <div class="columns is-vcentered">
         <div class="column is-one-third is-left is-center">
-					<a class="button is-white is-inverted is-outlined is-large">01202 7111 95</a>
+					<a class="button is-white is-inverted is-outlined is-large">01202 711 195</a>
         </div>
 
     <div class="column is-center">

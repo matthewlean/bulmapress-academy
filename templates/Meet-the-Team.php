@@ -66,8 +66,9 @@
 				<div class="column is-half-tablet is-half-desktop">
 					<div class="tile is-child has-text-centered">
 						<div class="team-profile"><img src="<?php the_field('team-member-1-image'); ?>" /></img></div>
-						<h2><strong><?php the_field('team-member-1-name'); ?></strong></h2>
+						<h2 alt="name"><strong><?php the_field('team-member-1-name'); ?></strong></h2>
 						<p><h2><?php the_field('team-member-1-title'); ?></h2></p>
+						<p><?php the_field('team-member-1-description'); ?></p>
 					</div>
 				</div>
 
@@ -76,8 +77,9 @@
 					<div class="tile is-child has-text-centered">
 							<div class="team-profile"><img src="<?php the_field('team-member-2-image'); ?>" /></img></div>
 						<!-- Button for team member 2 -->
-						<h2><strong><?php the_field('team-member-2-name'); ?></strong></h2>
+						<h2 alt="name"><strong><?php the_field('team-member-2-name'); ?></strong></h2>
 						<p><h2><?php the_field('team-member-2-title'); ?></h2></p>
+						<p><?php the_field('team-member-2-description'); ?></p>
 					</div>
 				</div>
 		</div>
@@ -92,16 +94,18 @@
 				<div class="column is-half-tablet is-half-desktop">
 					<div class="tile is-child has-text-centered">
 						<div class="team-profile"><img src="<?php the_field('team-member-3-image'); ?>" /></img></div>
-						<h2><strong><?php the_field('team-member-3-name'); ?></strong></h2>
+						<h2 alt="name"><strong><?php the_field('team-member-3-name'); ?></strong></h2>
 						<p><h2><?php the_field('team-member-3-title'); ?></h2></p>
+						<p><?php the_field('team-member-3-description'); ?></p>
 					</div>
 				</div>
 				<!-- Team Member -->
 				<div class="column is-half-tablet is-half-desktop">
 					<div class="tile is-child has-text-centered">
 						<div class="team-profile"><img src="<?php the_field('team-member-4-image'); ?>" /></img></div>
-						<h2><strong><?php the_field('team-member-4-name'); ?></strong></h2>
+						<h2 alt="name"><strong><?php the_field('team-member-4-name'); ?></strong></h2>
 						<p><h2><?php the_field('team-member-4-title'); ?></h2></p>
+						<p><?php the_field('team-member-4-description'); ?></p>
 					</div>
 				</div>
 			</div>
@@ -116,24 +120,27 @@
 				<div class="column is-one-thirds-tablet is-quater-desktop">
 					<div class="tile is-child has-text-centered">
 						<div class="team-profile"><img src="<?php the_field('team-member-5-image'); ?>" /></img></div>
-						<h2><strong><?php the_field('team-member-5-name'); ?></strong></h2>
+						<h2 alt="name"><strong><?php the_field('team-member-5-name'); ?></strong></h2>
 						<p><h2><?php the_field('team-member-5-title'); ?></h2></p>
+						<p><?php the_field('team-member-5-description'); ?></p>
 					</div>
 				</div>
 				<!-- Team Member -->
 				<div class="column is-one-thirds-tablet is-quater-desktop">
 					<div class="tile is-child has-text-centered">
 						<div class="team-profile"><img src="<?php the_field('team-member-6-image'); ?>" /></img></div>
-						<h2><strong><?php the_field('team-member-6-name'); ?></strong></h2>
+						<h2 alt="name"><strong><?php the_field('team-member-6-name'); ?></strong></h2>
 						<p><h2><?php the_field('team-member-6-title'); ?></h2></p>
+						<p><?php the_field('team-member-6-description'); ?></p>
 					</div>
 				</div>
 				<!-- Team Member -->
 				<div class="column is-one-thirds-tablet is-quater-desktop">
 					<div class="tile is-child has-text-centered">
 						<div class="team-profile"><img src="<?php the_field('team-member-7-image'); ?>" /></img></div>
-						<h2><strong><?php the_field('team-member-7-name'); ?></strong></h2>
+						<h2 alt="name"><strong><?php the_field('team-member-7-name'); ?></strong></h2>
 						<p><h2><?php the_field('team-member-7-title'); ?></h2></p>
+						<p><?php the_field('team-member-7-description'); ?></p>
 					</div>
 				</div>
 			</div>
@@ -148,7 +155,7 @@
 				<div class="column">
 					<div class="tile is-child has-text-centered">
 						<div class="team-profile"><img src="<?php the_field('team-member-8-image'); ?>" /></img></div>
-						<h2><strong><?php the_field('team-member-8-name'); ?></strong></h2>
+						<h2 alt="name"><strong><?php the_field('team-member-8-name'); ?></strong></h2>
 						<p><h2><?php the_field('team-member-8-title'); ?></h2></p>
 					</div>
 				</div>
