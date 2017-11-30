@@ -15,13 +15,13 @@
         Interested in becoming a locksmith?
       </h1>
 			<p class="field has-text-centered">
-		  <a class="button is-info is-outlined is-medium">
+		  <a class="button is-info is-outlined is-medium" href="/why-become-a-locksmith/">
 		    <span class="icon">
 		      <i class="fa fa-sign-in"></i>
 		    </span>
 		    <span>Read More</span>
 		  </a>
-		  <a id="download-pack-button" class="button is-success is-outlined is-medium">
+		  <a id="download-pack-button" class="button is-success is-outlined is-medium" download="/wp-content/uploads/2017/11/5-and-8-day-course-info-Level-4-February-20141.pdf" href="/wp-content/uploads/2017/11/5-and-8-day-course-info-Level-4-February-20141.pdf">
 		    <span class="icon">
 		      <i class="fa fa-download"></i>
 		    </span>

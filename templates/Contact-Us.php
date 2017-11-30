@@ -49,11 +49,9 @@
 			</div>
 		  <div class="column is-half">
 				<!-- Editable Top Wordpress Content -->
-				<section class="hero">
-					<div class="is-center m-tb-20">
+					<div>
 						<?php the_field('secondary_text'); ?>
 					</div>
-				</section>
 			</div>
 		</div>
 	</div>

@@ -34,6 +34,7 @@
 						</p>
 							<a class="button is-white is-inverted is-outlined is-large m-b-10" href="/contact-us">Apply Now</a>
 							<a class="button is-green-fill is-large" href="tel:01202711195">Call for more info <br> <i class="fa fa-phone" aria-hidden="true"></i></a>
+							<a class="button is-info is-large" href="https://www.keytek.co.uk/about-keytek-locksmiths/locksmith-careers/">Work with Keytek™</a>
 				  </div>
 				  <div class="column is-half is-video-header">
 						<?php the_field('header-video'); ?>
@@ -49,13 +50,13 @@
 </div>
 
 <!-- Subnav -->
-<!-- <div class="hero-foot">
+<div class="hero-foot">
 	<div class="container">
 		<nav class="tabs is-boxed" role="navigation">
 			<?php bulmapress_sub_navigation(); ?>
 		</nav>
 	</div>
-</div> -->
+</div>
 
 <!-- Editable Top Wordpress Content -->
 <section class="hero">
@@ -166,24 +167,26 @@
 
 <!-- Blog Section -->
 <section id="recent-blogs" class="hero is-medium is-dark">
-	<?php
-	$args = array( 'numberposts' => 2 );
-	$lastposts = get_posts( $args );
-	foreach($lastposts as $post) : setup_postdata($post); ?>
-	<section id="custom-hero" style="background-image: url(<?php the_post_thumbnail_url();?>); background-size: cover;"; class="hero is-primary is-medium">
-	  <div class="hero-body">
-			<a href="<?php the_permalink(); ?>">
-	    <div class="container notification is-dark p-10">
-					<!-- <h1 class="title has-text-weight-bold is-size-5"> Recent Blog Post </h1> -->
-		      <h1 class="title has-text-weight-bold is-size-3">
-		        <?php the_title(); ?>
-		      </h1>
-					<h1 class="title has-text-weight-bold is-size-6"><?php the_date(); ?></h1>
-	    </div>
-			</a>
-	  </div>
-	</section>
-	<?php endforeach; ?>
+	<div>
+	<div class="columns">
+		<?php
+		$args = array( 'numberposts' => 2 );
+		$lastposts = get_posts( $args );
+		foreach($lastposts as $post) : setup_postdata($post); ?>
+		<div class="column is-half section" id="custom-hero" style="background-image: url(<?php the_post_thumbnail_url();?>); background-size: cover;"; class="hero is-primary is-medium">
+				<a href="<?php the_permalink(); ?>">
+		    <div class="container notification is-dark p-10">
+						<!-- <h1 class="title has-text-weight-bold is-size-5"> Recent Blog Post </h1> -->
+			      <h1 class="title has-text-weight-bold is-size-3">
+			        <?php the_title(); ?>
+			      </h1>
+						<h1 class="title has-text-weight-bold is-size-6"><?php the_date(); ?></h1>
+		    </div>
+				</a>
+		</div>
+		<?php endforeach; ?>
+	</div>
+</div>
 </section>
 
 <!-- MailChimp Section -->

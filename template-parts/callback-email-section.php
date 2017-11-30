@@ -21,14 +21,22 @@
 					<a class="button is-white is-inverted is-outlined is-large">01202 711 195</a>
         </div>
 
-    <div class="column is-center">
+    <div class="column" id="callback-form">
 			<div class="field">
-				<p class="control has-icons-left has-icons-right has-addons" style="height: 48px;">
-					<input class="input is-medium" type="text" style="height: 48px;font-size: 16px;" placeholder="Email Address"><button style="height: 48px;font-size: 20px;" class="button is-white is-inverted is-outlined is-medium">Submit</button>
-			    <span class="icon is-small-medium is-left is-center">
-			      <i class="fa fa-envelope"></i>
-			    </span>
-			  </p>
+        <!-- script to hide popups after a few seconds -->
+        <script>
+          (function($) {
+          $(document).ajaxComplete(function() {
+          setTimeout(
+          function()
+          {
+          $('.wpcf7-response-output').slideUp('slow');
+          // change this value to make the popup show for more or less time 
+          }, 4000);
+          });
+          })(jQuery);
+        </script>
+          <?php echo do_shortcode( '[contact-form-7 id="576" title="Email Callback"]' ); ?>
 			</div>
 		</div>
 

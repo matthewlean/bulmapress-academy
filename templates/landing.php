@@ -250,7 +250,7 @@
 				<thead>
 					<tr id="no-hover">
 						<th class="is-no-border"></th>
-						<th style="background-color:#77ad1a; border-top: 3px solid #77ad1a;border-left: 3px solid #77ad1a;border-right: 3px solid #77ad1a;"><img src="http://new.locksmiths-training.co.uk/wp-content/uploads/2017/11/keytek-academy-logo-white.png"></th>
+						<th style="background-color:#77ad1a; border-top: 3px solid #77ad1a;border-left: 3px solid #77ad1a;border-right: 3px solid #77ad1a;"><img src="/wp-content/uploads/2017/11/keytek-academy-logo-white.png"></th>
 					</tr>
 				</thead>
 
