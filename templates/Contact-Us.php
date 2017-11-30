@@ -45,6 +45,18 @@
 		<div class="columns">
 		  <div class="column is-half">
         <!-- Wordpress Content -->
+				<script>
+          (function($) {
+          $(document).ajaxComplete(function() {
+          setTimeout(
+          function()
+          {
+          $('.wpcf7-response-output').slideUp('slow');
+          // change this value to make the popup show for more or less time
+          }, 4000);
+          });
+          })(jQuery);
+        </script>
         <?php get_template_part('template-parts/simple-content'); ?>
 			</div>
 		  <div class="column is-half">

@@ -1,6 +1,6 @@
 <?php
 /**
- * Template name: course-page
+ * Template name: course-page-lvl4
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -75,7 +75,7 @@
 </section>
 
 <!-- Callback Email Section -->
-<?php get_template_part( 'template-parts/callback-email-section' ); ?>
+<?php get_template_part( 'template-parts/callback-email-section-lvl4' ); ?>
 
 <!-- Course Breakdown -->
 <section class="hero">

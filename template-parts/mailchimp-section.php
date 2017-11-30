@@ -30,14 +30,27 @@
 			  <div class="column is-vcentered">
 			    <h1 style="font-size: 2em!important; font-weight: 600!important;">Mailing List <i class="fa fa-envelope-o" aria-hidden="true"></i></h1>
 					<p class="m-tb-20 is-white">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit
-						Vivamus efficitur felis erat, et efficitur nisl semper et.
-						Praesent nec mi.
+						If you are considering taking a locksmith course with <a href="keytek.co.uk">Keytek™</a>
+            and have any enquiries relating to funding, course content,
+            special requirements or anything else, please let us know and
+            we will gladly answer your questions for you.
 					</p>
           <div class="field">
+            <script>
+              (function($) {
+              $(document).ajaxComplete(function() {
+              setTimeout(
+              function()
+              {
+              $('.wpcf7-response-output').slideUp('slow');
+              // change this value to make the popup show for more or less time
+              }, 4000);
+              });
+              })(jQuery);
+            </script>
               <?php echo do_shortcode( '[contact-form-7 id="576" title="Email Callback"]' ); ?>
     			</div>
-					
+
 			  </div>
 			</div>
     </div>

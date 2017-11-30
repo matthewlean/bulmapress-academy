@@ -66,6 +66,7 @@ body , html{
 /* Colours // ----------------------------------*/
 .has-text-grey{color: hsl(0, 0%, 48%)!important;}
 .has-text-white{color: #fff!important}
+.is-dark-see-through{background-color: #363636ba;}
 .is-purple{background-color: #60354f}
 .is-green-fill{color: #fff!important;background-color: #77ad1a!important;border: none!important;}
 .is-green{color: #77ad1a!important;}
@@ -90,6 +91,12 @@ background: linear-gradient(to right, #0f6aea 0%,#00ff72 100%); /* W3C, IE10+, F
 
 /*Bulma Overwrite*/
 #course-tiles .column{display: flex !important;}
+/*#course-tiles .button{position: absolute;
+    border: solid;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 20px 10px;}*/
 .fa{vertical-align: initial!important;}
 .tabs ul{border-bottom:none;}
 
@@ -147,13 +154,17 @@ ul.mega-menu-item{width: -webkit-fill-available!important;}
 #wpcf7-f576-o1 .wpcf7-email{min-width: 300px;}
 #wpcf7-f576-o1 p{display: flex;float: left; width: min-content;}
 
-#wpcf7-f576-o2  .wpcf7-submit{width: auto;}
+#wpcf7-f576-o2 .wpcf7-submit{width: auto;}
 #wpcf7-f576-o2 .wpcf7-email{min-width: 300px;}
 #wpcf7-f576-o2 p{display: flex;float: left; width: min-content;}
 
 div.wpcf7-response-output {margin: 0;bottom: 50%;left: 50%; position: fixed;transform: translate(-50%, -50%);}
 div.wpcf7-validation-errors {background: #fff;color: #000;padding: 10px 10px;}
 div.wpcf7-mail-sent-ng {border: 2px solid #ff0000;background: #fff;padding: 10px 10px;color: #000;}
+
+/*Recent Blog Section*/
+#recent-blogs .columns {margin:0;}
+#recent-blogs .column.is-half, .column.is-half-tablet{padding:100px;}
 
 /*Contact Form 7*/
 input[type="text"],

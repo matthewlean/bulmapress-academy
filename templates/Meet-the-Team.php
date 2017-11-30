@@ -174,17 +174,12 @@
 <!-- Custom hero -->
 <?php get_template_part('template-parts/custom-hero'); ?>
 
-<!-- Secondary Text Section -->
+
+<!-- Secondary Content -->
 <section class="hero">
 <div class="hero-body">
-	<div class="secondaryPage-container">
-		<div id="primary" class="content-area">
-			<main id="main" class="site-main wrapper post has-text-centered" role="main">
-				<p class="has-text-centered">
-					<?php the_field('secondary_text'); ?>
-				</p>
-			</main><!-- #main -->
-		</div><!-- #primary -->
+	<div class="container secondaryPage-container" id="additional">
+				<?php the_field('secondary_text'); ?>
 	</div>
 </div>
 </section>

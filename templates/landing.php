@@ -114,10 +114,7 @@
 					<p class="subtitle">‘Experience Package’</p>
 					<div class="content">
 						<p>
-							This Eight Day Course will not only provide you with a
-							comprehensive understanding and practical application
-							of locksmith techniques, but on successful completion
-							you will also be awarded a Level 4 NCFE Certificate in Locksmithing…
+							Our Eight Day Course will provide you with a detailed understanding and practical application of locksmithing techniques. After you have completed the eight days you will be awarded a Level 4 Accreditation...
 						</p>
 					</div>
 					<a class="button is-green is-inverted is-outlined is-medium" href="keytek-8-day-level-4-experience-package/">View</a>
@@ -132,11 +129,7 @@
 		      <p class="subtitle">‘The Complate Package’</p>
 		      <div class="content">
 		        <p>
-							The Five Day Course will
-							provide you with a
-							comprehensive understanding
-							and practical application of
-							locksmith techniques..
+							Our Five Day Course will provide you with a thorough and detailed understanding of locksmith techniques, as well as expose you to the practical elements of successful locksmithing. The Five Day Course will provide you with a Level 4 Accreditation...
 						</p>
 		      </div>
 					<a class="button is-green is-inverted is-outlined is-medium" href="keytek-5-day-level-4-accredited-course">View</a>
@@ -151,11 +144,7 @@
 		      <p class="subtitle">‘NDE & uPVC’</p>
 		      <div class="content">
 		        <p>
-							The Keytek™ non-destructive entry
-							and uPVC course covers all aspects
-							of uPVC and wooden door lock
-							identification and the correct tools
-							to use...
+							The Keytek™ non-destructive entry and uPVC course covers all aspects of uPVC and wooden door lock identification and the correct tools to use, as well as bypassing and opening various types of doors and locks...
 						</p>
 		      </div>
 					<a class="button is-green is-inverted is-outlined is-medium" href="keytek-two-day-non-destructive-entry-and-upvc-course">View</a>
@@ -185,11 +174,7 @@
 					<p class="subtitle">‘uPVC  Insight Course’</p>
 					<div class="content">
 						<p>
-							The Five Day Course will
-							provide you with a
-							comprehensive understanding
-							and practical application of
-							locksmith techniques..
+							The Keytek™ One Day ‘uPVC Course’ is aimed at professionals who have experience as a locksmith on wooden doors but who have very little or no experience in uPVC. This course is also ideal for those already...
 						</p>
 					</div>
 					<a class="button is-green is-inverted is-outlined is-medium" href="keytek-1-day-upvc-course">View</a>
@@ -201,10 +186,7 @@
 					<p class="title has-text-weight-bold">1 Day - Non Destructive</p>
 					<div class="content">
 						<p>
-							Being able to open a door quickly
-							and without causing any damage
-							is an essential locksmith skill, but
-							it can be the lack of confidence in the tools ..
+							Being able to open a door quickly and without causing any damage is an essential locksmith skill, but it can be the confidence in the tools or processes that prevent many techniques being used on site...
 						</p>
 						<a class="button is-green is-inverted is-outlined is-medium" href="keytek-1-day-non-destructive-entry-course">View</a>
 					</div>
