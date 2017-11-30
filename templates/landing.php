@@ -136,7 +136,7 @@
 		    </article>
 		  </div>
 		</div>
-		<div class="tile is-ancestor">
+		<div class="columns is-desktop">
 			<!-- Course 3 -->
 		  <div class="column is-quater-desktop">
 		    <article class="tile is-child notification is-dark col-3-border-t">

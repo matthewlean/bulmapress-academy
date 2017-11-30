@@ -90,13 +90,13 @@ background: linear-gradient(to right, #0f6aea 0%,#00ff72 100%); /* W3C, IE10+, F
 .green-highlighted-text{padding: 4px 8px;width: fit-content;margin: 0 0 15px 0;border: solid 7px #c80028;float: right;}
 
 /*Bulma Overwrite*/
-#course-tiles .column{display: flex !important;}
-/*#course-tiles .button{position: absolute;
-    border: solid;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: 20px 10px;}*/
+#course-tiles .tile{display: flex;
+    flex-direction: column;height:100%;}
+#course-tiles .button {    margin-top: auto;
+    align-self: flex-start;
+    margin-left: auto;
+    width: 100%;
+    margin-right: auto;}
 .fa{vertical-align: initial!important;}
 .tabs ul{border-bottom:none;}
 
