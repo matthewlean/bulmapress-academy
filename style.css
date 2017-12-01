@@ -47,6 +47,7 @@ body , html{
 .m-b-10{margin-bottom: 10px!important}
 .m-b-20{margin-bottom: 20px!important}
 .m-b-40{margin-bottom: 40px!important}
+.m-l-10{margin-left:10px!important}
 .m-tb-20{margin: 20px 0!important}
 .p-l-10{padding-left:10px!important}
 .p-r-10{padding-right:10px!important}
@@ -448,7 +449,7 @@ max-height: 200px;
 /*Nav style*/
 .nav-logo{
   width: 200px;
-  padding: 15px 0;
+  padding: 15px 0 0 10px;
 }
 .sub-navigation .nav-item{
   padding: 0;

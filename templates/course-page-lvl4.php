@@ -33,8 +33,8 @@
 							 <?php the_field('header-paragraph'); ?>
 						</p>
 							<a class="button is-white is-inverted is-outlined is-large m-b-10" href="/contact-us">Apply Now</a>
-							<a class="button is-green-fill is-large" href="tel:01202711195">Call for more info <br> <i class="fa fa-phone" aria-hidden="true"></i></a>
-							<a class="button is-info is-large" href="https://www.keytek.co.uk/about-keytek-locksmiths/locksmith-careers/">Work with Keytek™</a>
+							<a class="button is-green-fill is-large" href="tel:01202711195">01202 711195 <br> <i class="fa fa-phone" aria-hidden="true"></i></a>
+							<a class="button is-info is-large" href="https://www.keytek.co.uk/about-keytek-locksmiths/locksmith-careers/">Why train with Keytek™ ? <br><img style="width:25px; height:22px;" src="/wp-content/uploads/2017/12/academy-mortarboard.svg"></img></a>
 				  </div>
 				  <div class="column is-half is-video-header">
 						<?php the_field('header-video'); ?>
@@ -81,7 +81,7 @@
 <section class="hero">
 	<div class="hero-body">
 		<div class="container">
-			<h1 class="title is-center">Course Breakdown</h1>
+			<h1 class="title is-center is-bold">Course Breakdown</h1>
 		</div>
 	</div>
 

@@ -35,6 +35,22 @@
     </div>
     </div>
 
+		<!-- Editable Top Wordpress Content -->
+		<section class="hero">
+		<div class="hero-body">
+			<div class="secondaryPage-container">
+				<div id="primary" class="content-area">
+					<main id="main" class="site-main wrapper post has-text-centered" role="main">
+						<?php while ( have_posts() ) : the_post(); ?>
+							<?php get_template_part( 'template-parts/content-secondaryPage' ); ?>
+							<?php bulmapress_get_comments(); ?>
+						<?php endwhile; ?>
+					</main><!-- #main -->
+				</div><!-- #primary -->
+			</div>
+		</div>
+		</section>
+
 		<?php
 
 		bulmapress_custom_query(array(
@@ -50,6 +66,22 @@
 
 	</main><!-- #main -->
 </div><!-- #primary -->
+
+<!-- Custom hero -->
+<?php get_template_part('template-parts/custom-hero'); ?>
+
+<!-- Sectiondary Text Section -->
+<section class="hero">
+<div class="hero-body">
+	<div class="secondaryPage-container">
+		<div id="primary" class="content-area">
+			<main id="main" class="site-main wrapper content" role="main">
+				<?php the_field('secondary_text'); ?>
+			</main><!-- #main -->
+		</div><!-- #primary -->
+	</div>
+</div>
+</section>
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
